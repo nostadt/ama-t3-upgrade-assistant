@@ -1,0 +1,29 @@
+{
+  "name": "amartinno1/ama-t3-upgrade-assistant",
+  "type": "typo3-cms-extension",
+  "description": "Provides features to simplify an upgrade process.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "productivity",
+    "improvements",
+    "maintenance"
+  ],
+  "license": [
+    "GPL-3.0"
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5",
+    "typo3/cms-lowlevel": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "AMartinNo1\\AmaT3UpgradeAssistant\\": "Classes"
+    }
+  },
+  "replace": {
+    "ama_t3_upgrade_assistant": "self.version",
+    "typo3-ter/ama-t3-upgrade-assistant": "self.version"
+  }
+}
+

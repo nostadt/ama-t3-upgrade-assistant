@@ -2,5 +2,5 @@
 
 This extensions aims to assist you while upgrading your TYPO3 system.
 
-Current feature set:
-* Get merged TCA as PHP code (WIP)
+Current feature(s) are in testing phase:
+* Get merged TCA as PHP code

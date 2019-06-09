@@ -1,0 +1,17 @@
+<?php
+defined('TYPO3_MODE') or die();
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
+    'AMartinNo1.AmaT3UpgradeAssistant',
+    'system',
+    'tx_UpgradeAssistant',
+    'after:config',
+    [
+        'Configuration' => 'main, show',
+    ],
+    [
+        'access' => 'admin',
+        'icon' => 'EXT:ama_t3_upgrade_assistant/ext_icon.svg',
+        'labels' => 'LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf',
+    ]
+);

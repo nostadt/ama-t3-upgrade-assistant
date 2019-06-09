@@ -1,0 +1,15 @@
+<f:section name="Form">
+    <h1><f:translate key="LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf:mlang_labels_tablabel"/></h1>
+    <h2><f:translate key="LLL:EXT:lowlevel/Resources/Private/Language/locallang.xlf:tca" /></h2>
+    <f:form action="show">
+        <div class="form-group">
+            <label><f:translate key="chooseTable" /></label>
+            <div class="input-group">
+                <f:form.select class="form-control" name="table" options="{tables}" value="{table}" />
+                <div class="input-group-btn">
+                    <f:form.button class="btn btn-default" name="submit"><f:translate key="LLL:EXT:lowlevel/Resources/Private/Language/locallang.xlf:checkNow" /></f:form.button>
+                </div>
+            </div>
+        </div>
+    </f:form>
+</f:section>
