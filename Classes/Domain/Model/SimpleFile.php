@@ -1,8 +1,6 @@
 <?php
-
-
+declare(strict_types = 1);
 namespace AMartinNo1\AmaT3UpgradeAssistant\Domain\Model;
-
 
 class SimpleFile
 {

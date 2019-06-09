@@ -1,13 +1,19 @@
 <f:section name="Form">
     <h1><f:translate key="LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf:mlang_labels_tablabel"/></h1>
-    <h2><f:translate key="LLL:EXT:lowlevel/Resources/Private/Language/locallang.xlf:tca" /></h2>
-    <f:form action="show">
-        <div class="form-group">
-            <label><f:translate key="chooseTable" /></label>
-            <div class="input-group">
-                <f:form.select class="form-control" name="table" options="{tables}" value="{table}" />
-                <div class="input-group-btn">
-                    <f:form.button class="btn btn-default" name="submit"><f:translate key="LLL:EXT:lowlevel/Resources/Private/Language/locallang.xlf:checkNow" /></f:form.button>
+    <h2><f:translate key="tca" /></h2>
+    <f:form action="show" class="form-group">
+        <div class="row">
+            <div class="col-md-3">
+                <label><f:translate key="chooseIndents" arguments="{0: intends}" /></label>
+                <f:form.textfield class="form-control" additionalAttributes="{min: 0}" type="number" name="intends" value="{intends}" />
+            </div>
+            <div class="col-md-9">
+                <label><f:translate key="chooseTable" /></label>
+                <div class="input-group">
+                    <f:form.select class="form-control" name="table" options="{tables}" value="{table}" />
+                    <div class="input-group-btn">
+                        <f:form.button class="btn btn-default" name="submit"><f:translate key="checkNow" /></f:form.button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,18 +3,13 @@
       data-namespace-typo3-fluid="true">
 
 <be:moduleLayout>
-    <f:be.pageRenderer
-            includeRequireJsModules="{
-			0:'TYPO3/CMS/Backend/ContextMenu',
-			1:'TYPO3/CMS/Backend/Modal'
-		}"
-    />
+    <f:be.pageRenderer/>
 
-    <be:moduleLayout.menu identifier="BackendUserModuleMenu">
-        <be:moduleLayout.menuItem label="{f:translate(key: 'LLL:EXT:lowlevel/Resources/Private/Language/locallang.xlf:tca')}" uri="{f:uri.action(controller: 'BackendUser', action: 'index')}"/>
+    <be:moduleLayout.menu identifier="MergedTcaToPhp">
+        <be:moduleLayout.menuItem label="{f:translate(key: 'tca')}" uri="{f:uri.action(controller: 'Configuration', action: 'main')}"/>
     </be:moduleLayout.menu>
 
-    <f:render partial="Form" section="Form" arguments="{tables: tables, table: table}"/>
+    <f:render partial="Form" section="Form" arguments="{tables: tables, table: table, intends: intends}"/>
 
     <f:render section="Content" />
 
