@@ -6,6 +6,24 @@
             <trans-unit id="chooseTable">
                 <source>Choose table</source>
             </trans-unit>
+            <trans-unit id="chooseIndents">
+                <source>Choose intends (default: %s)</source>
+            </trans-unit>
+            <trans-unit id="result">
+                <source>Result</source>
+            </trans-unit>
+            <trans-unit id="knownIssues">
+                <source>Be aware of following issue: When using ::class notation the actual string is returned.</source>
+            </trans-unit>
+            <trans-unit id="knownIssues.helpMe">
+                <source>If you know how to solve it, feel free to help.</source>
+            </trans-unit>
+            <trans-unit id="tca">
+                <source>$GLOBALS['TCA'] (Table configuration array)</source>
+            </trans-unit>
+            <trans-unit id="checkNow">
+                <source>Check now!</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

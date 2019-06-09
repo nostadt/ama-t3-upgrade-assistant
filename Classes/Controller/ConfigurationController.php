@@ -1,5 +1,4 @@
 <?php
-
 declare(strict_types = 1);
 
 namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
@@ -36,16 +35,16 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
         }
     }
 
-    protected function getTcaAsPhp(string $table): string {
+    protected function getTcaAsPhp(string $table, int $intends = SimpleFile::DEFAULTS_INTENDS): string {
         $tca = $GLOBALS['TCA'][$table];
 
-        $simpleFile = new SimpleFile();
-        $simpleFile->addRow('<?php');
-        $simpleFile->addRow('return [');
+        $simpleFile = new SimpleFile($intends);
+        $simpleFile->addRow('<?php', 0);
+        $simpleFile->addRow('return [', 0);
 
-        $this->getTcaAsPhpSubContent($tca, 2, $simpleFile);
+        $this->getTcaAsPhpSubContent($tca, 1, $simpleFile);
 
-        $simpleFile->addRow('];');
+        $simpleFile->addRow('];', 0);
 
         return $simpleFile->getContent();
 
@@ -56,14 +55,16 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
         $this->view->assignMultiple([
             'tables' => $this->getTcaTables(),
             'table' => '',
+            'intends' => SimpleFile::DEFAULTS_INTENDS,
         ]);
     }
 
-    public function showAction(string $table): void {
+    public function showAction(int $intends, string $table): void {
         $this->view->assignMultiple([
             'tables' => $this->getTcaTables(),
             'table' => $table,
-            'tcaAsPhp' =>  $this->getTcaAsPhp($table),
+            'intends' => $intends,
+            'tcaAsPhp' =>  $this->getTcaAsPhp($table, $intends),
         ]);
     }
 }

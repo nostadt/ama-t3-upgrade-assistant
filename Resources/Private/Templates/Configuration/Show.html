@@ -4,6 +4,13 @@
     <f:layout name="Default" />
 
     <f:section name="Content">
-        <textarea style="width: 80vw; height: 60vh;">{tcaAsPhp}</textarea>
+        <h2><f:translate key="result"/></h2>
+
+        <p>
+            <b><f:translate key="knownIssues"/></b>
+            <a href="https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues" target="_blank"><f:translate key="knownIssues.helpMe"/></a>
+        </p>
+
+        <textarea class="form-control" style="width: 100%; min-width: 100%; max-width: 100%; min-height: 100px; height: 300px;">{tcaAsPhp}</textarea>
     </f:section>
 </html>
