@@ -3,11 +3,7 @@
     <h2><f:translate key="tca" /></h2>
     <f:form action="show" class="form-group">
         <div class="row">
-            <div class="col-md-3">
-                <label><f:translate key="chooseIndents" arguments="{0: intends}" /></label>
-                <f:form.textfield class="form-control" additionalAttributes="{min: 0}" type="number" name="intends" value="{intends}" />
-            </div>
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <label><f:translate key="chooseTable" /></label>
                 <div class="input-group">
                     <f:form.select class="form-control" name="table" options="{tables}" value="{table}" />
