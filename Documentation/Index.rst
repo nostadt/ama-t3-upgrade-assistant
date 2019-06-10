@@ -1,3 +1,14 @@
+.. every .rst file should include Includes.txt
+.. use correct path!
+
+.. include:: Includes.txt
+
+
+.. Every manual should have a start label for cross-referencing to
+.. start page. Do not remove this!
+
+.. _start:
+
 =============================================================
 TYPO3 Upgrade Assistant
 =============================================================
@@ -6,13 +17,13 @@ TYPO3 Upgrade Assistant
    ama_t3_upgrade_assistant
 
 :Version:
-   1
+   1.0.0
 
 :Language:
    en
 
 :Copyright:
-   2019
+   2019-2019
 
 :Authors:
     Alexander Nostadt
