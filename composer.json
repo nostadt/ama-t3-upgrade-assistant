@@ -1,7 +1,7 @@
 {
   "name": "amartinno1/ama-t3-upgrade-assistant",
   "type": "typo3-cms-extension",
-  "description": "Provides features to simplify an upgrade process.",
+  "description": "This extension aims to simplify the upgrade process. In a first step it provides a be module displaying merged TCA.",
   "keywords": [
     "TYPO3",
     "extension",

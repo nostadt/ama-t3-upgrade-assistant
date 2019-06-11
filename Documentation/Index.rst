@@ -29,5 +29,4 @@ TYPO3 Upgrade Assistant
     Alexander Nostadt
 
 **About this extension**
-    This extension aims to simplify the upgrade process. In a first step it provides a backend module which generates
-    TCA in PHP format.
+    This extension aims to simplify the upgrade process. In a first step it provides a be module displaying merged TCA.

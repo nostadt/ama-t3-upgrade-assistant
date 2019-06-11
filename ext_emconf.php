@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Upgrade Assistant',
-    'description' => 'Provides features to simplify an upgrade process.',
+    'description' => 'This extension aims to simplify the upgrade process. In a first step it provides a backend module which generates TCA in PHP format.',
     'category' => 'be',
     'author' => 'Alexander Nostadt',
     'state' => 'stable',
