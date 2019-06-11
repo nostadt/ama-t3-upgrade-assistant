@@ -17,7 +17,7 @@ TYPO3 Upgrade Assistant
    ama_t3_upgrade_assistant
 
 :Version:
-   1.0.0
+   1.0.1
 
 :Language:
    en
@@ -30,3 +30,11 @@ TYPO3 Upgrade Assistant
 
 **About this extension**
     This extension aims to simplify the upgrade process. In a first step it provides a be module displaying merged TCA.
+
+**Table of contents**
+
+.. toctree::
+    :glob:
+    :titlesonly:
+
+    *
