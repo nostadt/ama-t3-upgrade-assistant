@@ -1,29 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
-    <file t3:id="1415814784" source-language="en" datatype="plaintext" original="messages" date="2012-02-06T16:10:22Z" product-name="beuser">
-        <header/>
-        <body>
-            <trans-unit id="chooseTable">
-                <source>Choose table</source>
-            </trans-unit>
-            <trans-unit id="chooseIndents">
-                <source>Choose intends (default: %s)</source>
-            </trans-unit>
-            <trans-unit id="result">
-                <source>Result</source>
-            </trans-unit>
-            <trans-unit id="knownIssues">
-                <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-            </trans-unit>
-            <trans-unit id="knownIssues.helpMe">
-                <source>If you know how to solve it, feel free to help.</source>
-            </trans-unit>
-            <trans-unit id="tca">
-                <source>$GLOBALS['TCA'] (Table configuration array)</source>
-            </trans-unit>
-            <trans-unit id="checkNow">
-                <source>Check now!</source>
-            </trans-unit>
-        </body>
-    </file>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-06-12T19:41:51Z" product-name="ama_t3_upgrade_assistant">
+		<header/>
+		<body>
+			<trans-unit id="chooseTable">
+				<source>Choose table</source>
+			</trans-unit>
+			<trans-unit id="chooseIndents">
+				<source>Choose intends (default: %s)</source>
+			</trans-unit>
+			<trans-unit id="result">
+				<source>Result</source>
+			</trans-unit>
+			<trans-unit id="knownIssues">
+				<source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
+			</trans-unit>
+			<trans-unit id="knownIssues.helpMe">
+				<source>If you know how to solve it, feel free to help.</source>
+			</trans-unit>
+			<trans-unit id="tca">
+				<source>$GLOBALS['TCA'] (Table configuration array)</source>
+			</trans-unit>
+			<trans-unit id="checkNow">
+				<source>Check now!</source>
+			</trans-unit>
+			<trans-unit id="credits">
+				<source>Credits:</source>
+			</trans-unit>
+			<trans-unit id="credits.prismjs">
+				<source>Prismjs</source>
+			</trans-unit>
+			<trans-unit id="credits.prismjs.description">
+				<source>Prismjs is used for code-highlighting.</source>
+			</trans-unit>
+		</body>
+	</file>
 </xliff>

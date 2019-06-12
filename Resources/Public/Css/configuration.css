@@ -1,0 +1,11 @@
+.media-object {
+    border: solid 5px #000;
+    height: 40px;
+    width: auto;
+    background: #000000;
+}
+
+pre {
+    min-height: 100px;
+    max-height: 450px;"
+}
