@@ -20,4 +20,5 @@ The extension has been developed and tested using TYPO3 v9.5.5
 
 ## Credits
 
-* [prismjs](https://prismjs.com)
+* [PrismJS](https://prismjs.com)
+* [Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.](https://stackoverflow.com/a/41998497)

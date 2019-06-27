@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2019-06-12T19:41:51Z" product-name="ama_t3_upgrade_assistant">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-06-15T08:38:03Z" product-name="ama_t3_upgrade_assistant">
 		<header/>
 		<body>
 			<trans-unit id="chooseTable">
 				<source>Choose table</source>
+			</trans-unit>
+			<trans-unit id="synchronizeCode">
+				<source>Synchronize Code</source>
+			</trans-unit>
+			<trans-unit id="synchronizeCodeStart">
+				<source>Start synchronization</source>
+			</trans-unit>
+			<trans-unit id="synchronizeCodeStop">
+				<source>Stop synchronization</source>
 			</trans-unit>
 			<trans-unit id="chooseIndents">
 				<source>Choose intends (default: %s)</source>
@@ -28,10 +37,25 @@
 				<source>Credits:</source>
 			</trans-unit>
 			<trans-unit id="credits.prismjs">
-				<source>Prismjs</source>
+				<source>PrismJS</source>
 			</trans-unit>
 			<trans-unit id="credits.prismjs.description">
-				<source>Prismjs is used for code-highlighting.</source>
+				<source>PrismJS is used for code-highlighting.</source>
+			</trans-unit>
+			<trans-unit id="credits.smoothScrolling">
+				<source>Smooth synchronized scrolling</source>
+			</trans-unit>
+			<trans-unit id="credits.smoothScrolling.description">
+				<source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
+			</trans-unit>
+			<trans-unit id="mergedTca">
+				<source>Merged TCA:</source>
+			</trans-unit>
+			<trans-unit id="originalTca">
+				<source>Original TCA:</source>
+			</trans-unit>
+			<trans-unit id="originalTcaNotFound">
+				<source>Original TCA for table &quot;%s&quot; not found.</source>
 			</trans-unit>
 		</body>
 	</file>

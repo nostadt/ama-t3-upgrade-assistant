@@ -3,39 +3,35 @@ declare(strict_types = 1);
 
 namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
 
-use Symfony\Component\VarExporter\VarExporter;
-use TYPO3\CMS\Core\Utility\ArrayUtility;
+use AMartinNo1\AmaT3UpgradeAssistant\Utility\TcaUtility;
+use RuntimeException;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-    protected function getTcaTables(): array {
-        $tables = array_keys($GLOBALS['TCA']);
-        ArrayUtility::naturalKeySortRecursive($tables);
-        return array_combine($tables, $tables);
-    }
-
-    protected function getTcaAsPhp(string $table): string {
-        $varExport = VarExporter::export($GLOBALS['TCA'][$table]);
-        return <<<TEXT
-<?php
-
-return {$varExport};
-TEXT;
-    }
-
     public function mainAction(): void
     {
         $this->view->assignMultiple([
-            'tables' => $this->getTcaTables(),
+            'tables' => TcaUtility::getTcaList(),
             'table' => '',
         ]);
     }
 
     public function showAction(string $table): void {
+        $originalTca = '';
+        $originalTcaFound = true;
+        try {
+            $originalTca = TcaUtility::getTcaFileContent($table);
+        } catch (RuntimeException $exception) {
+            $originalTcaFound = false;
+        }
+
         $this->view->assignMultiple([
-            'tables' => $this->getTcaTables(),
+            'tables' => TcaUtility::getTcaList(),
             'table' => $table,
-            'tcaAsPhp' =>  $this->getTcaAsPhp($table),
+            'tcaAsPhp' => TcaUtility::getAsPhp($table),
+            'originalTca' => $originalTca,
+            'originalTcaFound' => $originalTcaFound,
         ]);
     }
 }

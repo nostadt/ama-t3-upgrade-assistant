@@ -1,16 +1,22 @@
-<f:section name="Form">
-    <h2><f:translate key="tca" /></h2>
-    <f:form action="show" class="form-group">
-        <div class="row">
-            <div class="col-md-12">
-                <label><f:translate key="chooseTable" /></label>
-                <div class="input-group">
-                    <f:form.select class="form-control" name="table" options="{tables}" value="{table}" />
-                    <div class="input-group-btn">
-                        <f:form.button class="btn btn-default" name="submit"><f:translate key="checkNow" /></f:form.button>
+<html xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+    <f:section name="Form">
+        <h2><f:translate key="tca" /></h2>
+        <f:form action="show" class="form-group">
+            <div class="row">
+                <div class="col-md-12">
+                    <label><f:translate key="chooseTable" /></label>
+                    <div class="input-group">
+                        <f:form.select class="form-control" name="table" options="{tables}" value="{table}" />
+                        <div class="input-group-btn">
+                            <f:form.button class="btn btn-default" name="submit">
+                                <core:icon identifier="actions-system-pagemodule-open" size="small" />
+                                <f:translate key="checkNow" />
+                            </f:form.button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </f:form>
-</f:section>
+        </f:form>
+    </f:section>
+</html>
