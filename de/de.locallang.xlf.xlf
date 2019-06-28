@@ -3,77 +3,89 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2019-06-15T08:38:03Z" product-name="ama_t3_upgrade_assistant" target-language="de">
     <header/>
     <body>
-      <trans-unit id="chooseTable">
+      <trans-unit id="chooseTable" approved="yes">
         <source>Choose table</source>
-        <target state="needs-translation">Choose table</target>
+        <target state="translated">Tabelle wählen</target>
       </trans-unit>
-      <trans-unit id="synchronizeCode">
+      <trans-unit id="synchronizeCode" approved="yes">
         <source>Synchronize Code</source>
-        <target state="needs-translation">Synchronize Code</target>
+        <target state="translated">Code synchronisieren</target>
       </trans-unit>
-      <trans-unit id="synchronizeCodeStart">
+      <trans-unit id="synchronizeCodeStart" approved="yes">
         <source>Start synchronization</source>
-        <target state="needs-translation">Start synchronization</target>
+        <target state="translated">Starte Synchronisierung</target>
       </trans-unit>
-      <trans-unit id="synchronizeCodeStop">
+      <trans-unit id="synchronizeCodeStop" approved="yes">
         <source>Stop synchronization</source>
-        <target state="needs-translation">Stop synchronization</target>
+        <target state="translated">Stoppe Synchronisierung</target>
+        <alt-trans>
+          <target>Stope Synchronisierung</target>
+        </alt-trans>
       </trans-unit>
-      <trans-unit id="chooseIndents">
+      <trans-unit id="chooseIndents" approved="yes">
         <source>Choose intends (default: %s)</source>
-        <target state="needs-translation">Choose intends (default: %s)</target>
+        <target state="translated">Einrückung wählen (standard: %s)</target>
       </trans-unit>
-      <trans-unit id="result">
+      <trans-unit id="result" approved="yes">
         <source>Result</source>
-        <target state="needs-translation">Result</target>
+        <target state="translated">Ergebnis</target>
       </trans-unit>
-      <trans-unit id="knownIssues">
+      <trans-unit id="knownIssues" approved="yes">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-        <target state="needs-translation">Be aware of following issue: When using ::class notation and $variables the actual string is returned.</target>
+        <target state="translated">Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variablen verwendest, wird der eigentliche String zurückgegeben.</target>
+        <alt-trans>
+          <target>Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variables verwendest, wird der eigentliche String zurückgegeben.</target>
+        </alt-trans>
       </trans-unit>
-      <trans-unit id="knownIssues.helpMe">
+      <trans-unit id="knownIssues.helpMe" approved="yes">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="needs-translation">If you know how to solve it, feel free to help.</target>
+        <target state="translated">Wenn du weißt, wie man das Problem lösen kann freue ich mich über PRs.</target>
       </trans-unit>
       <trans-unit id="tca">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="needs-translation">$GLOBALS['TCA'] (Table configuration array)</target>
+        <target state="translated">$GLOBALS['TCA'] (Table configuration array)</target>
       </trans-unit>
       <trans-unit id="checkNow">
         <source>Check now!</source>
-        <target state="needs-translation">Check now!</target>
+        <target state="translated">Jetzt prüfen!</target>
       </trans-unit>
       <trans-unit id="credits">
         <source>Credits:</source>
-        <target state="needs-translation">Credits:</target>
+        <target state="translated">Credits:</target>
       </trans-unit>
       <trans-unit id="credits.prismjs">
         <source>PrismJS</source>
-        <target state="needs-translation">PrismJS</target>
+        <target state="translated">PrismJS</target>
       </trans-unit>
-      <trans-unit id="credits.prismjs.description">
+      <trans-unit id="credits.prismjs.description" approved="yes">
         <source>PrismJS is used for code-highlighting.</source>
-        <target state="needs-translation">PrismJS is used for code-highlighting.</target>
+        <target state="translated">PrismJS wird für das Code-Highlighting genutzt.</target>
+        <alt-trans>
+          <target>PrismJS wird für das Code-Hightlighting genutzt.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling">
         <source>Smooth synchronized scrolling</source>
-        <target state="needs-translation">Smooth synchronized scrolling</target>
+        <target state="translated">Synchronisiertes Scrollen</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="needs-translation">Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</target>
+        <target state="translated">Synchronisiertes Scrolling basiert auf dem Post von Artem Kachanovskyi auf StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca">
         <source>Merged TCA:</source>
-        <target state="needs-translation">Merged TCA:</target>
+        <target state="translated">Zusammengefügtes TCA:</target>
       </trans-unit>
       <trans-unit id="originalTca">
         <source>Original TCA:</source>
-        <target state="needs-translation">Original TCA:</target>
+        <target state="translated">Original TCA:</target>
+        <alt-trans>
+          <target>Originales TCA:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="originalTcaNotFound">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="needs-translation">Original TCA for table "%s" not found.</target>
+        <target state="translated">Original TCA für Tabelle "%s" nicht gefunden.</target>
       </trans-unit>
     </body>
   </file>
