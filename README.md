@@ -16,7 +16,11 @@ about your change or create an [issue](https://github.com/AMartinNo1/ama_t3_upgr
 [Show all contributors](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/graphs/contributors)
 
 ## Tested with
-The extension has been developed and tested using TYPO3 v9.5.5
+The extension has been developed and tested using
+* TYPO3 v9.5.5
+* TYPO3 v9.5.8
+* TYPO3 v8.7.27
+* Also tested with [helhum/typo3-secure-web](https://github.com/helhum/typo3-secure-web)
 
 ## Credits
 
