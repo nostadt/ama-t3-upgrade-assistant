@@ -4,7 +4,9 @@
 
     <f:layout name="Default" />
 
-    <f:section name="Content">
+    <f:section name="content">
+        <f:render partial="Header" section="Header" arguments="{tables: tables, table: table}"/>
+
         <h2><f:translate key="result"/></h2>
 
         <p>
@@ -51,5 +53,6 @@
             var rightDiv = document.getElementById('originalTca');
             bindScroll();
         </script>
+        <f:render partial="Footer" section="Footer"/>
     </f:section>
 </html>

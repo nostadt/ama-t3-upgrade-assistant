@@ -5,7 +5,6 @@ namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
 
 use AMartinNo1\AmaT3UpgradeAssistant\Utility\TcaUtility;
 use RuntimeException;
-use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
@@ -17,6 +16,9 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
         ]);
     }
 
+    /**
+     * @param string $table
+     */
     public function showAction(string $table): void {
         $originalTca = '';
         $originalTcaFound = true;

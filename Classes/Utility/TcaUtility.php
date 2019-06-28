@@ -5,7 +5,6 @@ namespace AMartinNo1\AmaT3UpgradeAssistant\Utility;
 
 use RuntimeException;
 use Symfony\Component\VarExporter\VarExporter;
-use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 

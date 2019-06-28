@@ -1,24 +1,12 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
-      xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers"
       data-namespace-typo3-fluid="true">
-
-<be:moduleLayout>
+<f:be.container>
     <f:be.pageRenderer
             includeCssFiles="{0: 'EXT:ama_t3_upgrade_assistant/Resources/Public/Css/prism.css', 1: 'EXT:ama_t3_upgrade_assistant/Resources/Public/Css/configuration.css'}"
             includeJsFiles="{0: 'EXT:ama_t3_upgrade_assistant/Resources/Public/JavaScript/prism.js', 1: 'EXT:ama_t3_upgrade_assistant/Resources/Public/JavaScript/configuration.js'}"/>
-
-    <be:moduleLayout.menu identifier="MergedTcaToPhp">
-        <be:moduleLayout.menuItem label="{f:translate(key: 'tca')}" uri="{f:uri.action(controller: 'Configuration', action: 'main')}"/>
-    </be:moduleLayout.menu>
-
-    <h1><f:translate key="LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf:mlang_labels_tablabel"/></h1>
-
-    <f:render partial="Form" section="Form" arguments="{tables: tables, table: table}"/>
-
-    <f:render section="Content"/>
-
-    <f:render partial="Credits" section="Credits"/>
-
-</be:moduleLayout>
+    <div class="container">
+        <f:render section="content"/>
+    </div>
+</f:be.container>
 
 </html>
