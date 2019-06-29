@@ -10,10 +10,11 @@ This extensions aims to assist you while upgrading your TYPO3 system.
 [See ext. manual for more](https://docs.typo3.org/p/amartinno1/ama-t3-upgrade-assistant/master/en-us/)
 
 ## Contribute
-If you want to contribute you can either create a [PR](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/pulls) with a description
-about your change or create an [issue](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues) with your idea or found bug.
+You may either contribute to the code base by creating a [PR](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/pulls),
+propose a new feature using the [issue tracker](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues)
+or contribute to [translations via crowdin](https://crowdin.com/project/typo3-upgrade-assistant).
 
-[Show all contributors](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/graphs/contributors)
+[Show all code-contributors](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/graphs/contributors)
 
 ## Tested with
 The extension has been developed and tested using
@@ -26,3 +27,4 @@ The extension has been developed and tested using
 
 * [PrismJS](https://prismjs.com)
 * [Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.](https://stackoverflow.com/a/41998497)
+* [Crowdin.com - Manage Translations Easily](https://crowdin.com)
