@@ -18,9 +18,6 @@
       <trans-unit id="synchronizeCodeStop" approved="yes">
         <source>Stop synchronization</source>
         <target state="translated">Stoppe Synchronisierung</target>
-        <alt-trans>
-          <target>Stope Synchronisierung</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="chooseIndents" approved="yes">
         <source>Choose intends (default: %s)</source>
@@ -33,13 +30,10 @@
       <trans-unit id="knownIssues" approved="yes">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
         <target state="translated">Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variablen verwendest, wird der eigentliche String zurückgegeben.</target>
-        <alt-trans>
-          <target>Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variables verwendest, wird der eigentliche String zurückgegeben.</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="knownIssues.helpMe" approved="yes">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="translated">Wenn du weißt, wie man das Problem lösen kann freue ich mich über PRs.</target>
+        <target state="translated">Wenn du weißt, wie man das Problem lösen kann freue ich mich über Hilfe.</target>
       </trans-unit>
       <trans-unit id="tca" approved="yes">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
@@ -60,9 +54,6 @@
       <trans-unit id="credits.prismjs.description" approved="yes">
         <source>PrismJS is used for code-highlighting.</source>
         <target state="translated">PrismJS wird für das Code-Highlighting genutzt.</target>
-        <alt-trans>
-          <target>PrismJS wird für das Code-Hightlighting genutzt.</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling" approved="yes">
         <source>Smooth synchronized scrolling</source>
