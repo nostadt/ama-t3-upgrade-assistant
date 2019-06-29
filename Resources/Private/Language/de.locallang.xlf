@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-06-15T08:38:03Z" product-name="ama_t3_upgrade_assistant" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="chooseTable" approved="yes">
+        <source>Choose table</source>
+        <target state="translated">Tabelle wählen</target>
+      </trans-unit>
+      <trans-unit id="synchronizeCode" approved="yes">
+        <source>Synchronize Code</source>
+        <target state="translated">Code synchronisieren</target>
+      </trans-unit>
+      <trans-unit id="synchronizeCodeStart" approved="yes">
+        <source>Start synchronization</source>
+        <target state="translated">Starte Synchronisierung</target>
+      </trans-unit>
+      <trans-unit id="synchronizeCodeStop" approved="yes">
+        <source>Stop synchronization</source>
+        <target state="translated">Stoppe Synchronisierung</target>
+      </trans-unit>
+      <trans-unit id="chooseIndents" approved="yes">
+        <source>Choose intends (default: %s)</source>
+        <target state="translated">Einrückung wählen (standard: %s)</target>
+      </trans-unit>
+      <trans-unit id="result" approved="yes">
+        <source>Result</source>
+        <target state="translated">Ergebnis</target>
+      </trans-unit>
+      <trans-unit id="knownIssues" approved="yes">
+        <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
+        <target state="translated">Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variablen verwendest, wird der eigentliche String zurückgegeben.</target>
+      </trans-unit>
+      <trans-unit id="knownIssues.helpMe" approved="yes">
+        <source>If you know how to solve it, feel free to help.</source>
+        <target state="translated">Wenn du weißt, wie man das Problem lösen kann freue ich mich über Hilfe.</target>
+      </trans-unit>
+      <trans-unit id="tca" approved="yes">
+        <source>$GLOBALS['TCA'] (Table configuration array)</source>
+        <target state="translated">$GLOBALS['TCA'] (Table configuration array)</target>
+      </trans-unit>
+      <trans-unit id="checkNow" approved="yes">
+        <source>Check now!</source>
+        <target state="translated">Jetzt prüfen!</target>
+      </trans-unit>
+      <trans-unit id="credits" approved="yes">
+        <source>Credits:</source>
+        <target state="translated">Credits:</target>
+      </trans-unit>
+      <trans-unit id="credits.prismjs" approved="yes">
+        <source>PrismJS</source>
+        <target state="translated">PrismJS</target>
+      </trans-unit>
+      <trans-unit id="credits.prismjs.description" approved="yes">
+        <source>PrismJS is used for code-highlighting.</source>
+        <target state="translated">PrismJS wird für das Code-Highlighting genutzt.</target>
+      </trans-unit>
+      <trans-unit id="credits.smoothScrolling" approved="yes">
+        <source>Smooth synchronized scrolling</source>
+        <target state="translated">Synchronisiertes Scrollen</target>
+      </trans-unit>
+      <trans-unit id="credits.smoothScrolling.description" approved="yes">
+        <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
+        <target state="translated">Synchronisiertes Scrolling basiert auf dem Post von Artem Kachanovskyi auf StackOverflow.</target>
+      </trans-unit>
+      <trans-unit id="mergedTca" approved="yes">
+        <source>Merged TCA:</source>
+        <target state="translated">Zusammengefügtes TCA:</target>
+      </trans-unit>
+      <trans-unit id="originalTca" approved="yes">
+        <source>Original TCA:</source>
+        <target state="translated">Original TCA:</target>
+      </trans-unit>
+      <trans-unit id="originalTcaNotFound" approved="yes">
+        <source>Original TCA for table "%s" not found.</source>
+        <target state="translated">Original TCA für Tabelle "%s" nicht gefunden.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
