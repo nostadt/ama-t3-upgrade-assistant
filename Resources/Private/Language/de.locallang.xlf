@@ -70,9 +70,6 @@
       <trans-unit id="originalTca" approved="yes">
         <source>Original TCA:</source>
         <target state="translated">Original TCA:</target>
-        <alt-trans>
-          <target>Originales TCA:</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
         <source>Original TCA for table "%s" not found.</source>
