@@ -33,7 +33,10 @@
       </trans-unit>
       <trans-unit id="knownIssues.helpMe" approved="yes">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="translated">Wenn du weißt, wie man das Problem lösen kann freue ich mich über Hilfe.</target>
+        <target state="translated">Wenn du weißt, wie man das Problem lösen kann, freue ich mich über Hilfe.</target>
+        <alt-trans>
+          <target>Wenn du weißt, wie man das Problem lösen kann freue ich mich über Hilfe.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="tca" approved="yes">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
