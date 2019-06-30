@@ -1,9 +1,12 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers"
       data-namespace-typo3-fluid="true">
 
     <f:layout name="Default" />
 
-    <f:section name="Content">
+    <f:section name="content">
+        <f:render partial="Header" section="Header" arguments="{tables: tables, table: table}"/>
+
         <h2><f:translate key="result"/></h2>
 
         <p>
@@ -11,6 +14,45 @@
             <a href="https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues/4" target="_blank"><f:translate key="knownIssues.helpMe"/></a>
         </p>
 
-        <textarea class="form-control" style="width: 100%; min-width: 100%; max-width: 100%; min-height: 100px; height: 300px;">{tcaAsPhp}</textarea>
+        <div class="row">
+            <div class="col-xs-12 text-center form-group">
+                <f:form.button class="btn btn-success" name="button" id="startParallelScroll">
+                    <core:icon identifier="actions-check" size="small"/>
+                    <f:translate key="synchronizeCodeStart" />
+                </f:form.button>
+                <f:form.button class="btn btn-danger" name="button" id="stopParallelScroll">
+                    <core:icon identifier="actions-close" size="small"/>
+                    <f:translate key="synchronizeCodeStop" />
+                </f:form.button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6">
+                <strong><f:translate key="mergedTca"/></strong>
+                <pre id="mergedTca" class="line-numbers"><code class="language-php">{tcaAsPhp}</code></pre>
+            </div>
+            <div class="col-xs-6">
+                <strong><f:translate key="originalTca"/></strong>
+                <f:if condition="{originalTcaFound}">
+                    <f:then>
+                        <pre id="originalTca" class="line-numbers"><code class="language-php">{originalTca}</code></pre>
+                    </f:then>
+                    <f:else>
+                        <p>
+                            <f:translate key="originalTcaNotFound" arguments="{0: table}"/>
+                        </p>
+                    </f:else>
+                </f:if>
+            </div>
+        </div>
+
+        <script>
+            bindClickHandling();
+            var leftDiv = document.getElementById('mergedTca');
+            var rightDiv = document.getElementById('originalTca');
+            bindScroll();
+        </script>
+        <f:render partial="Footer" section="Footer"/>
     </f:section>
 </html>

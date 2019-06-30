@@ -3,5 +3,8 @@
 
     <f:layout name="Default" />
 
-    <f:section name="Content"></f:section>
+    <f:section name="content">
+        <f:render partial="Header" section="Header" arguments="{tables: tables, table: table}"/>
+        <f:render partial="Footer" section="Footer" arguments="{tables: tables, table: table}"/>
+    </f:section>
 </html>

@@ -1,4 +1,4 @@
-.. include:: Includes.txt
+.. include:: Include.txt
 
 
 .. _known-problems:

@@ -1,0 +1,46 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+    <f:section name="Credits">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3><f:translate key="credits"/></h3>
+            </div>
+        </div>
+        <div class="row">
+            <!-- PrismJS -->
+            <div class="col-xs-3">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="https://prismjs.com/" target="_blank">
+                            <f:image class="media-object" src="EXT:ama_t3_upgrade_assistant/Resources/Public/Images/Icons/PrismJs-Logo.svg" alt=""/>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <a href="https://prismjs.com/" target="_blank"><f:translate key="credits.prismjs"/></a>
+                        </h4>
+                        <f:translate key="credits.prismjs.description"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- smooth scroll @artem-kachanovskyi on StackOverflow -->
+            <div class="col-xs-3">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="https://stackoverflow.com/a/41998497" target="_blank">
+                            <core:icon identifier="status-user-frontend" size="default"/>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">
+                            <a href="https://stackoverflow.com/a/41998497" target="_blank"><f:translate key="credits.smoothScrolling"/></a>
+                        </h4>
+                        <f:translate key="credits.smoothScrolling.description"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </f:section>
+</html>
