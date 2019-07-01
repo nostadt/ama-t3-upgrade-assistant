@@ -18,10 +18,11 @@ or contribute to [translations via crowdin](https://crowdin.com/project/typo3-up
 
 ## Tested with
 The extension has been developed and tested using
-* TYPO3 v9.5.5
-* TYPO3 v9.5.8
-* TYPO3 v8.7.27
-* Also tested with [helhum/typo3-secure-web](https://github.com/helhum/typo3-secure-web)
+| TYPO3 Version | also [helhum/typo3-secure-web](https://github.com/helhum/typo3-secure-web) |
+| --- | --- |
+| v9.5.5  | - |
+| v9.5.8 | &check; |
+| v8.7.27 | &check; |
 
 ## Credits
 
