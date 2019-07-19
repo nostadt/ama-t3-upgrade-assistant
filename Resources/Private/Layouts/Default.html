@@ -1,9 +1,15 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       data-namespace-typo3-fluid="true">
-<f:be.container>
+<f:be.container >
     <f:be.pageRenderer
-            includeCssFiles="{0: 'EXT:ama_t3_upgrade_assistant/Resources/Public/Css/prism.css', 1: 'EXT:ama_t3_upgrade_assistant/Resources/Public/Css/configuration.css'}"
-            includeJsFiles="{0: 'EXT:ama_t3_upgrade_assistant/Resources/Public/JavaScript/prism.js', 1: 'EXT:ama_t3_upgrade_assistant/Resources/Public/JavaScript/configuration.js'}"/>
+            includeCssFiles="{
+                0: '{f:uri.resource(path:\'Css/prism.css\')}',
+                1: '{f:uri.resource(path:\'Css/configuration.css\')}'
+            }"
+            includeJsFiles="{
+                0: '{f:uri.resource(path:\'JavaScript/prism.js\')}',
+                1: '{f:uri.resource(path:\'JavaScript/configuration.js\')}'
+            }"/>
     <div class="container">
         <f:render section="content"/>
     </div>
