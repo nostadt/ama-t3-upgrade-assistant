@@ -21,7 +21,6 @@ The extension has been developed and tested using
 
 | TYPO3 Version | also [helhum/typo3-secure-web](https://github.com/helhum/typo3-secure-web) |
 | --- | --- |
-| v10-dev| - |
 | v9.5.8 | &check; |
 | v9.5.5  | - |
 | v8.7.27 | &check; |
