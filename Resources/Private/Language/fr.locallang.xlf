@@ -49,31 +49,31 @@
       </trans-unit>
       <trans-unit id="credits.prismjs">
         <source>PrismJS</source>
-        <target state="needs-translation">PrismJS</target>
+        <target state="translated">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description">
         <source>PrismJS is used for code-highlighting.</source>
-        <target state="needs-translation">PrismJS is used for code-highlighting.</target>
+        <target state="translated">PrismJS est utilisé pour la mise en évidence du code.</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling">
         <source>Smooth synchronized scrolling</source>
-        <target state="needs-translation">Smooth synchronized scrolling</target>
+        <target state="translated">Défilement synchronisé en douceur</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="needs-translation">Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</target>
+        <target state="translated">Le défilement synchronisé en douceur est basé sur l'article d'Artem Kachanovskyi sur StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca">
         <source>Merged TCA:</source>
-        <target state="needs-translation">Merged TCA:</target>
+        <target state="translated">TCA fusionné :</target>
       </trans-unit>
       <trans-unit id="originalTca">
         <source>Original TCA:</source>
-        <target state="needs-translation">Original TCA:</target>
+        <target state="translated">TCA original :</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="needs-translation">Original TCA for table "%s" not found.</target>
+        <target state="translated">TCA original introuvable pour la table "%s".</target>
       </trans-unit>
     </body>
   </file>
