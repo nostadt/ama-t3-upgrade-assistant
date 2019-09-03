@@ -5,19 +5,19 @@
     <body>
       <trans-unit id="chooseTable">
         <source>Choose table</source>
-        <target state="needs-translation">Choose table</target>
+        <target state="translated">Choisir la table</target>
       </trans-unit>
       <trans-unit id="synchronizeCode">
         <source>Synchronize Code</source>
-        <target state="needs-translation">Synchronize Code</target>
+        <target state="translated">Synchroniser le code</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStart">
         <source>Start synchronization</source>
-        <target state="needs-translation">Start synchronization</target>
+        <target state="translated">Démarrer la synchronisation</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStop">
         <source>Stop synchronization</source>
-        <target state="needs-translation">Stop synchronization</target>
+        <target state="translated">Arrêter la synchronisation</target>
       </trans-unit>
       <trans-unit id="chooseIndents">
         <source>Choose intends (default: %s)</source>
@@ -25,27 +25,27 @@
       </trans-unit>
       <trans-unit id="result">
         <source>Result</source>
-        <target state="needs-translation">Result</target>
+        <target state="translated">Résultat</target>
       </trans-unit>
       <trans-unit id="knownIssues">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-        <target state="needs-translation">Be aware of following issue: When using ::class notation and $variables the actual string is returned.</target>
+        <target state="translated">Soyez conscient du problème suivant : Lorsque vous utilisez la notation ::class et $variables, la chaîne de caractères actuelle est retournée.</target>
       </trans-unit>
       <trans-unit id="knownIssues.helpMe">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="needs-translation">If you know how to solve it, feel free to help.</target>
+        <target state="translated">Si vous savez comment le résoudre, n'hésitez pas à nous aider.</target>
       </trans-unit>
       <trans-unit id="tca">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="needs-translation">$GLOBALS['TCA'] (Table configuration array)</target>
+        <target state="translated">$GLOBALS['TCA'] (Tableau pour la configuration de la table)</target>
       </trans-unit>
       <trans-unit id="checkNow">
         <source>Check now!</source>
-        <target state="needs-translation">Check now!</target>
+        <target state="translated">Vérifier maintenant !</target>
       </trans-unit>
       <trans-unit id="credits">
         <source>Credits:</source>
-        <target state="needs-translation">Credits:</target>
+        <target state="translated">Remerciements :</target>
       </trans-unit>
       <trans-unit id="credits.prismjs">
         <source>PrismJS</source>
