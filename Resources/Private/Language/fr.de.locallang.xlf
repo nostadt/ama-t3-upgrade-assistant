@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-06-15T08:38:03Z" product-name="ama_t3_upgrade_assistant" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="chooseTable">
+        <source>Choose table</source>
+        <target state="translated">Choisir la table</target>
+      </trans-unit>
+      <trans-unit id="synchronizeCode">
+        <source>Synchronize Code</source>
+        <target state="translated">Synchroniser le code</target>
+      </trans-unit>
+      <trans-unit id="synchronizeCodeStart">
+        <source>Start synchronization</source>
+        <target state="translated">Démarrer la synchronisation</target>
+      </trans-unit>
+      <trans-unit id="synchronizeCodeStop">
+        <source>Stop synchronization</source>
+        <target state="translated">Arrêter la synchronisation</target>
+      </trans-unit>
+      <trans-unit id="chooseIndents">
+        <source>Choose intends (default: %s)</source>
+        <target state="needs-translation">Choose intends (default: %s)</target>
+      </trans-unit>
+      <trans-unit id="result">
+        <source>Result</source>
+        <target state="translated">Résultat</target>
+      </trans-unit>
+      <trans-unit id="knownIssues">
+        <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
+        <target state="translated">Soyez conscient du problème suivant : Lorsque vous utilisez la notation ::class et $variables, la chaîne de caractères actuelle est retournée.</target>
+      </trans-unit>
+      <trans-unit id="knownIssues.helpMe">
+        <source>If you know how to solve it, feel free to help.</source>
+        <target state="translated">Si vous savez comment le résoudre, n'hésitez pas à nous aider.</target>
+      </trans-unit>
+      <trans-unit id="tca">
+        <source>$GLOBALS['TCA'] (Table configuration array)</source>
+        <target state="translated">$GLOBALS['TCA'] (Tableau pour la configuration de la table)</target>
+      </trans-unit>
+      <trans-unit id="checkNow">
+        <source>Check now!</source>
+        <target state="translated">Vérifier maintenant !</target>
+      </trans-unit>
+      <trans-unit id="credits">
+        <source>Credits:</source>
+        <target state="translated">Remerciements :</target>
+      </trans-unit>
+      <trans-unit id="credits.prismjs" approved="yes">
+        <source>PrismJS</source>
+        <target state="translated">PrismJS</target>
+      </trans-unit>
+      <trans-unit id="credits.prismjs.description" approved="yes">
+        <source>PrismJS is used for code-highlighting.</source>
+        <target state="translated">PrismJS est utilisé pour la mise en évidence du code.</target>
+      </trans-unit>
+      <trans-unit id="credits.smoothScrolling">
+        <source>Smooth synchronized scrolling</source>
+        <target state="translated">Défilement synchronisé en douceur</target>
+      </trans-unit>
+      <trans-unit id="credits.smoothScrolling.description" approved="yes">
+        <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
+        <target state="translated">Le défilement synchronisé en douceur est basé sur l'article d'Artem Kachanovskyi sur StackOverflow.</target>
+      </trans-unit>
+      <trans-unit id="mergedTca">
+        <source>Merged TCA:</source>
+        <target state="translated">TCA fusionné :</target>
+      </trans-unit>
+      <trans-unit id="originalTca">
+        <source>Original TCA:</source>
+        <target state="translated">TCA original :</target>
+      </trans-unit>
+      <trans-unit id="originalTcaNotFound">
+        <source>Original TCA for table "%s" not found.</source>
+        <target state="translated">TCA original introuvable pour la table "%s".</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
