@@ -35,7 +35,7 @@
         <source>If you know how to solve it, feel free to help.</source>
         <target state="translated">Si vous savez comment le résoudre, n'hésitez pas à nous aider.</target>
       </trans-unit>
-      <trans-unit id="tca">
+      <trans-unit id="tca" approved="yes">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
         <target state="translated">$GLOBALS['TCA'] (Tableau pour la configuration de la table)</target>
       </trans-unit>
