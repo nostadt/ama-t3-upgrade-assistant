@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="knownIssues">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-        <target state="needs-translation">Be aware of following issue: When using ::class notation and $variables the actual string is returned.</target>
+        <target state="translated">Будьте в курсі наступної проблеми: Коли використовується ::class позначення і $variables фактично повертається рядок.</target>
       </trans-unit>
       <trans-unit id="knownIssues.helpMe">
         <source>If you know how to solve it, feel free to help.</source>
