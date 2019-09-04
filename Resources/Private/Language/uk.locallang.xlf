@@ -21,7 +21,7 @@
       </trans-unit>
       <trans-unit id="chooseIndents">
         <source>Choose intends (default: %s)</source>
-        <target state="needs-translation">Choose intends (default: %s)</target>
+        <target state="translated">Виберіть наміри (за замовчуванням: %s)</target>
       </trans-unit>
       <trans-unit id="result">
         <source>Result</source>
@@ -37,43 +37,43 @@
       </trans-unit>
       <trans-unit id="tca">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="needs-translation">$GLOBALS['TCA'] (Table configuration array)</target>
+        <target state="translated">$GLOBALS['TCA'] (Масив конфігурації таблиці)</target>
       </trans-unit>
       <trans-unit id="checkNow">
         <source>Check now!</source>
-        <target state="needs-translation">Check now!</target>
+        <target state="translated">Перевірити зараз!</target>
       </trans-unit>
       <trans-unit id="credits">
         <source>Credits:</source>
-        <target state="needs-translation">Credits:</target>
+        <target state="translated">Подяки:</target>
       </trans-unit>
       <trans-unit id="credits.prismjs">
         <source>PrismJS</source>
-        <target state="needs-translation">PrismJS</target>
+        <target state="translated">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description">
         <source>PrismJS is used for code-highlighting.</source>
-        <target state="needs-translation">PrismJS is used for code-highlighting.</target>
+        <target state="translated">PrismJS використовується для виділення коду.</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling">
         <source>Smooth synchronized scrolling</source>
-        <target state="needs-translation">Smooth synchronized scrolling</target>
+        <target state="translated">Плавне синхронізоване прокручування</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="needs-translation">Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</target>
+        <target state="translated">Плавне синхронізоване прокручування основане на публікації Артема Качановського в StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca">
         <source>Merged TCA:</source>
-        <target state="needs-translation">Merged TCA:</target>
+        <target state="translated">Об’єднаний TCA:</target>
       </trans-unit>
       <trans-unit id="originalTca">
         <source>Original TCA:</source>
-        <target state="needs-translation">Original TCA:</target>
+        <target state="translated">Оригінальний TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="needs-translation">Original TCA for table "%s" not found.</target>
+        <target state="translated">Оригінальний TCA для таблиці "%s" не знайдено.</target>
       </trans-unit>
     </body>
   </file>
