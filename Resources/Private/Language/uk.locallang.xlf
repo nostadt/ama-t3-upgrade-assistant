@@ -5,75 +5,75 @@
     <body>
       <trans-unit id="chooseTable" approved="yes">
         <source>Choose table</source>
-        <target state="translated">Виберіть таблицю</target>
+        <target state="final">Виберіть таблицю</target>
       </trans-unit>
       <trans-unit id="synchronizeCode" approved="yes">
         <source>Synchronize Code</source>
-        <target state="translated">Синхронізуйте код</target>
+        <target state="final">Синхронізуйте код</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStart" approved="yes">
         <source>Start synchronization</source>
-        <target state="translated">Розпочати синхронізацію</target>
+        <target state="final">Розпочати синхронізацію</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStop" approved="yes">
         <source>Stop synchronization</source>
-        <target state="translated">Зупинити синхронізацію</target>
+        <target state="final">Зупинити синхронізацію</target>
       </trans-unit>
       <trans-unit id="chooseIndents" approved="yes">
         <source>Choose intends (default: %s)</source>
-        <target state="translated">Виберіть наміри (за замовчуванням: %s)</target>
+        <target state="final">Виберіть наміри (за замовчуванням: %s)</target>
       </trans-unit>
       <trans-unit id="result" approved="yes">
         <source>Result</source>
-        <target state="translated">Результат</target>
+        <target state="final">Результат</target>
       </trans-unit>
       <trans-unit id="knownIssues" approved="yes">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-        <target state="translated">Будьте в курсі наступної проблеми: Коли використовується ::class позначення і $variables фактично повертається рядок.</target>
+        <target state="final">Будьте в курсі наступної проблеми: Коли використовується ::class позначення і $variables фактично повертається рядок.</target>
       </trans-unit>
       <trans-unit id="knownIssues.helpMe" approved="yes">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="translated">Якщо ви знаєте, як вирішити це, не соромтеся допомогти.</target>
+        <target state="final">Якщо ви знаєте, як вирішити це, не соромтеся допомогти.</target>
       </trans-unit>
       <trans-unit id="tca" approved="yes">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="translated">$GLOBALS['TCA'] (Масив конфігурації таблиці)</target>
+        <target state="final">$GLOBALS['TCA'] (Масив конфігурації таблиці)</target>
       </trans-unit>
       <trans-unit id="checkNow" approved="yes">
         <source>Check now!</source>
-        <target state="translated">Перевірити зараз!</target>
+        <target state="final">Перевірити зараз!</target>
       </trans-unit>
       <trans-unit id="credits" approved="yes">
         <source>Credits:</source>
-        <target state="translated">Подяки:</target>
+        <target state="final">Подяки:</target>
       </trans-unit>
       <trans-unit id="credits.prismjs" approved="yes">
         <source>PrismJS</source>
-        <target state="translated">PrismJS</target>
+        <target state="final">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description" approved="yes">
         <source>PrismJS is used for code-highlighting.</source>
-        <target state="translated">PrismJS використовується для виділення коду.</target>
+        <target state="final">PrismJS використовується для виділення коду.</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling" approved="yes">
         <source>Smooth synchronized scrolling</source>
-        <target state="translated">Плавне синхронізоване прокручування</target>
+        <target state="final">Плавне синхронізоване прокручування</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description" approved="yes">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="translated">Плавне синхронізоване прокручування основане на публікації Артема Качановського в StackOverflow.</target>
+        <target state="final">Плавне синхронізоване прокручування основане на публікації Артема Качановського в StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca" approved="yes">
         <source>Merged TCA:</source>
-        <target state="translated">Об’єднаний TCA:</target>
+        <target state="final">Об’єднаний TCA:</target>
       </trans-unit>
       <trans-unit id="originalTca" approved="yes">
         <source>Original TCA:</source>
-        <target state="translated">Оригінальний TCA:</target>
+        <target state="final">Оригінальний TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="translated">Оригінальний TCA для таблиці "%s" не знайдено.</target>
+        <target state="final">Оригінальний TCA для таблиці "%s" не знайдено.</target>
       </trans-unit>
     </body>
   </file>
