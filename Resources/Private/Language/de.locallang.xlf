@@ -5,78 +5,78 @@
     <body>
       <trans-unit id="chooseTable" approved="yes">
         <source>Choose table</source>
-        <target state="translated">Tabelle wählen</target>
+        <target state="final">Tabelle wählen</target>
       </trans-unit>
       <trans-unit id="synchronizeCode" approved="yes">
         <source>Synchronize Code</source>
-        <target state="translated">Code synchronisieren</target>
+        <target state="final">Code synchronisieren</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStart" approved="yes">
         <source>Start synchronization</source>
-        <target state="translated">Starte Synchronisierung</target>
+        <target state="final">Starte Synchronisierung</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStop" approved="yes">
         <source>Stop synchronization</source>
-        <target state="translated">Stoppe Synchronisierung</target>
+        <target state="final">Stoppe Synchronisierung</target>
       </trans-unit>
       <trans-unit id="chooseIndents" approved="yes">
         <source>Choose intends (default: %s)</source>
-        <target state="translated">Einrückung wählen (standard: %s)</target>
+        <target state="final">Einrückung wählen (standard: %s)</target>
       </trans-unit>
       <trans-unit id="result" approved="yes">
         <source>Result</source>
-        <target state="translated">Ergebnis</target>
+        <target state="final">Ergebnis</target>
       </trans-unit>
       <trans-unit id="knownIssues" approved="yes">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-        <target state="translated">Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variablen verwendest, wird der eigentliche String zurückgegeben.</target>
+        <target state="final">Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class-Notation und $variablen verwendest, wird der eigentliche String zurückgegeben.</target>
       </trans-unit>
       <trans-unit id="knownIssues.helpMe" approved="yes">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="translated">Wenn du weißt, wie man das Problem lösen kann, freue ich mich über Hilfe.</target>
+        <target state="final">Wenn du weißt, wie man das Problem lösen kann, freue ich mich über Hilfe.</target>
         <alt-trans>
           <target>Wenn du weißt, wie man das Problem lösen kann freue ich mich über Hilfe.</target>
         </alt-trans>
       </trans-unit>
       <trans-unit id="tca" approved="yes">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="translated">$GLOBALS['TCA'] (Table configuration array)</target>
+        <target state="final">$GLOBALS['TCA'] (Table configuration array)</target>
       </trans-unit>
       <trans-unit id="checkNow" approved="yes">
         <source>Check now!</source>
-        <target state="translated">Jetzt prüfen!</target>
+        <target state="final">Jetzt prüfen!</target>
       </trans-unit>
       <trans-unit id="credits" approved="yes">
         <source>Credits:</source>
-        <target state="translated">Credits:</target>
+        <target state="final">Credits:</target>
       </trans-unit>
       <trans-unit id="credits.prismjs" approved="yes">
         <source>PrismJS</source>
-        <target state="translated">PrismJS</target>
+        <target state="final">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description" approved="yes">
         <source>PrismJS is used for code-highlighting.</source>
-        <target state="translated">PrismJS wird für das Code-Highlighting genutzt.</target>
+        <target state="final">PrismJS wird für das Code-Highlighting genutzt.</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling" approved="yes">
         <source>Smooth synchronized scrolling</source>
-        <target state="translated">Synchronisiertes Scrollen</target>
+        <target state="final">Synchronisiertes Scrollen</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description" approved="yes">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="translated">Synchronisiertes Scrolling basiert auf dem Post von Artem Kachanovskyi auf StackOverflow.</target>
+        <target state="final">Synchronisiertes Scrolling basiert auf dem Post von Artem Kachanovskyi auf StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca" approved="yes">
         <source>Merged TCA:</source>
-        <target state="translated">Zusammengefügtes TCA:</target>
+        <target state="final">Zusammengefügtes TCA:</target>
       </trans-unit>
       <trans-unit id="originalTca" approved="yes">
         <source>Original TCA:</source>
-        <target state="translated">Original TCA:</target>
+        <target state="final">Original TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="translated">Original TCA für Tabelle "%s" nicht gefunden.</target>
+        <target state="final">Original TCA für Tabelle "%s" nicht gefunden.</target>
       </trans-unit>
     </body>
   </file>
