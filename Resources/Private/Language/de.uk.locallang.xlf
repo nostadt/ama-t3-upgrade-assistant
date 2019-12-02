@@ -5,31 +5,31 @@
     <body>
       <trans-unit id="chooseTable">
         <source>Choose table</source>
-        <target state="needs-translation">Choose table</target>
+        <target state="translated">Tabelle wählen</target>
       </trans-unit>
       <trans-unit id="synchronizeCode">
         <source>Synchronize Code</source>
-        <target state="needs-translation">Synchronize Code</target>
+        <target state="translated">Code synchronisieren</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStart">
         <source>Start synchronization</source>
-        <target state="needs-translation">Start synchronization</target>
+        <target state="translated">Starte Synchronisierung</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStop">
         <source>Stop synchronization</source>
-        <target state="needs-translation">Stop synchronization</target>
+        <target state="translated">Stoppe Synchronisierung</target>
       </trans-unit>
       <trans-unit id="chooseIndents">
         <source>Choose intends (default: %s)</source>
-        <target state="needs-translation">Choose intends (default: %s)</target>
+        <target state="translated">Einrückung wählen (standard: %s)</target>
       </trans-unit>
       <trans-unit id="result">
         <source>Result</source>
-        <target state="needs-translation">Result</target>
+        <target state="translated">Ergebnis</target>
       </trans-unit>
       <trans-unit id="knownIssues">
         <source>Be aware of following issue: When using ::class notation and $variables the actual string is returned.</source>
-        <target state="needs-translation">Be aware of following issue: When using ::class notation and $variables the actual string is returned.</target>
+        <target state="translated">Aktuell gibt es folgendes, bekanntes Problem: Wenn du die ::class notation und $variables verwendest, wird der eigentliche String zurückgegeben.</target>
       </trans-unit>
       <trans-unit id="knownIssues.helpMe">
         <source>If you know how to solve it, feel free to help.</source>
