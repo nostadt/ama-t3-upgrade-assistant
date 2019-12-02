@@ -33,47 +33,47 @@
       </trans-unit>
       <trans-unit id="knownIssues.helpMe">
         <source>If you know how to solve it, feel free to help.</source>
-        <target state="needs-translation">If you know how to solve it, feel free to help.</target>
+        <target state="translated">Wenn du weißt, wie man das Problem lösen kann, freue ich mich über Hilfe.</target>
       </trans-unit>
       <trans-unit id="tca">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="needs-translation">$GLOBALS['TCA'] (Table configuration array)</target>
+        <target state="translated">$GLOBALS['TCA'] (Array für Tabellenkonfiguration)</target>
       </trans-unit>
       <trans-unit id="checkNow">
         <source>Check now!</source>
-        <target state="needs-translation">Check now!</target>
+        <target state="translated">Jetzt prüfen!</target>
       </trans-unit>
       <trans-unit id="credits">
         <source>Credits:</source>
-        <target state="needs-translation">Credits:</target>
+        <target state="translated">Credits:</target>
       </trans-unit>
       <trans-unit id="credits.prismjs">
         <source>PrismJS</source>
-        <target state="needs-translation">PrismJS</target>
+        <target state="translated">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description">
         <source>PrismJS is used for code-highlighting.</source>
-        <target state="needs-translation">PrismJS is used for code-highlighting.</target>
+        <target state="translated">PrismJS wird für das Code-Highlighting genutzt.</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling">
         <source>Smooth synchronized scrolling</source>
-        <target state="needs-translation">Smooth synchronized scrolling</target>
+        <target state="translated">Synchronisiertes Scrollen</target>
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="needs-translation">Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</target>
+        <target state="translated">Synchronisiertes Scrolling basiert auf dem Post von Artem Kachanovskyi auf StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca">
         <source>Merged TCA:</source>
-        <target state="needs-translation">Merged TCA:</target>
+        <target state="translated">Zusammengefügtes TCA:</target>
       </trans-unit>
       <trans-unit id="originalTca">
         <source>Original TCA:</source>
-        <target state="needs-translation">Original TCA:</target>
+        <target state="translated">Original TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="needs-translation">Original TCA for table "%s" not found.</target>
+        <target state="translated">Original TCA für Tabelle "%s" nicht gefunden.</target>
       </trans-unit>
     </body>
   </file>
