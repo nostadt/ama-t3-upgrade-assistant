@@ -61,19 +61,19 @@
       </trans-unit>
       <trans-unit id="credits.smoothScrolling.description">
         <source>Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</source>
-        <target state="needs-translation">Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.</target>
+        <target state="translated">Synchronisiertes Scrolling basiert auf dem Post von Artem Kachanovskyi auf StackOverflow.</target>
       </trans-unit>
       <trans-unit id="mergedTca">
         <source>Merged TCA:</source>
-        <target state="needs-translation">Merged TCA:</target>
+        <target state="translated">Zusammengefügtes TCA:</target>
       </trans-unit>
       <trans-unit id="originalTca">
         <source>Original TCA:</source>
-        <target state="needs-translation">Original TCA:</target>
+        <target state="translated">Original TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound">
         <source>Original TCA for table "%s" not found.</source>
-        <target state="needs-translation">Original TCA for table "%s" not found.</target>
+        <target state="translated">Original TCA für Tabelle "%s" nicht gefunden.</target>
       </trans-unit>
     </body>
   </file>
