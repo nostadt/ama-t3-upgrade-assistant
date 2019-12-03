@@ -5,15 +5,15 @@
     <body>
       <trans-unit id="mlang_labels_tablabel">
         <source>PHP Configuration</source>
-        <target state="needs-translation">PHP Configuration</target>
+        <target state="translated">PHP Конфігурація</target>
       </trans-unit>
       <trans-unit id="mlang_labels_tabdescr">
         <source>Configuration but with PHP</source>
-        <target state="needs-translation">Configuration but with PHP</target>
+        <target state="translated">Конфігурація, але з PHP</target>
       </trans-unit>
       <trans-unit id="mlang_tabs_tab">
         <source>PHP Configuration</source>
-        <target state="needs-translation">PHP Configuration</target>
+        <target state="translated">PHP Конфігурація</target>
       </trans-unit>
     </body>
   </file>
