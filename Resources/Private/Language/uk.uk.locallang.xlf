@@ -5,23 +5,23 @@
     <body>
       <trans-unit id="chooseTable">
         <source>Choose table</source>
-        <target state="needs-translation">Choose table</target>
+        <target state="translated">Виберіть таблицю</target>
       </trans-unit>
       <trans-unit id="synchronizeCode">
         <source>Synchronize Code</source>
-        <target state="needs-translation">Synchronize Code</target>
+        <target state="translated">Синхронізуйте код</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStart">
         <source>Start synchronization</source>
-        <target state="needs-translation">Start synchronization</target>
+        <target state="translated">Розпочати синхронізацію</target>
       </trans-unit>
       <trans-unit id="synchronizeCodeStop">
         <source>Stop synchronization</source>
-        <target state="needs-translation">Stop synchronization</target>
+        <target state="translated">Зупинити синхронізацію</target>
       </trans-unit>
       <trans-unit id="chooseIndents">
         <source>Choose intends (default: %s)</source>
-        <target state="needs-translation">Choose intends (default: %s)</target>
+        <target state="translated">Виберіть наміри (за замовчуванням: %s)</target>
       </trans-unit>
       <trans-unit id="result">
         <source>Result</source>
