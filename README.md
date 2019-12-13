@@ -33,3 +33,5 @@ Please bear in mind that T3 v10 is currently in development.
 * [PrismJS](https://prismjs.com)
 * [Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.](https://stackoverflow.com/a/41998497)
 * [Crowdin.com - Manage Translations Easily](https://crowdin.com)
+* [UK Translation, Ukrainian TYPO3 community](https://www.typo3.org.ua/)
+* [FR Translation, User wembley](https://crowdin.com/profile/wembley)

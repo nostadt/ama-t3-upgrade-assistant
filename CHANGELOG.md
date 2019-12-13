@@ -1,3 +1,6 @@
+v1.0.5
+* [TASK] #27 Add new translations: UK, FR. Thanks UK Community and wembley
+
 v1.0.4
 * [TASK] #15 Support of TYPO3 v7.6
 * [TASK] #19 Define minimum PHP version of v7.1.3
