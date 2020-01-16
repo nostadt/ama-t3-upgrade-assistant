@@ -23,7 +23,6 @@
     }
   },
   "replace": {
-    "ama_t3_upgrade_assistant": "self.version",
     "typo3-ter/ama-t3-upgrade-assistant": "self.version"
   }
 }
