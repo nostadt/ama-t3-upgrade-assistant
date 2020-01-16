@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/AMartinNo1/ama_t3_upgrade_assistant) 
+
 # TYPO3 Upgrade Assistant
 
 This extensions aims to assist you while upgrading your TYPO3 system.
