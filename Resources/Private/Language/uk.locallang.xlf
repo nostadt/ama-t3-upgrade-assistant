@@ -72,7 +72,7 @@
         <target state="final">Оригінальний TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
-        <source>Original TCA for table "%s" not found.</source>
+        <source>Original TCA for table &quot;%s&quot; not found.</source>
         <target state="final">Оригінальний TCA для таблиці "%s" не знайдено.</target>
       </trans-unit>
     </body>
