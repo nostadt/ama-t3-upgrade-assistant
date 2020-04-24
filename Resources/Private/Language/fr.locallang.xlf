@@ -72,7 +72,7 @@
         <target state="final">TCA original :</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
-        <source>Original TCA for table "%s" not found.</source>
+        <source>Original TCA for table &quot;%s&quot; not found.</source>
         <target state="final">TCA original introuvable pour la table "%s".</target>
       </trans-unit>
     </body>
