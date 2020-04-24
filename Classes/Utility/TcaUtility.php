@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace AMartinNo1\AmaT3UpgradeAssistant\Utility;
 
-use RuntimeException;
+use AMartinNo1\AmaT3UpgradeAssistant\Exception\TcaNotFoundException;
 use Symfony\Component\VarExporter\VarExporter;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
@@ -28,7 +28,7 @@ TEXT;
     /**
      * @param string $table
      * @return string
-     * @throws RuntimeException if TCA not found for $table
+     * @throws TcaNotFoundException if TCA not found for $table
      */
     public static function getTcaFileContent(string $table): string {
         $extensionList = ExtensionManagementUtility::getLoadedExtensionListArray();
@@ -39,6 +39,6 @@ TEXT;
                 return file_get_contents($filename);
             }
         }
-        throw new RuntimeException("TCA for table '$table' not found", 1560539365);
+        throw new TcaNotFoundException("TCA for table '$table' not found", 1560539365);
     }
 }

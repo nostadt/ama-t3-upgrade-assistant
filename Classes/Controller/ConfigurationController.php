@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
 
+use AMartinNo1\AmaT3UpgradeAssistant\Exception\TcaNotFoundException;
 use AMartinNo1\AmaT3UpgradeAssistant\Utility\TcaUtility;
-use RuntimeException;
 
 class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
@@ -24,7 +24,7 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
         $originalTcaFound = true;
         try {
             $originalTca = TcaUtility::getTcaFileContent($table);
-        } catch (RuntimeException $exception) {
+        } catch (TcaNotFoundException $exception) {
             $originalTcaFound = false;
         }
 
