@@ -20,18 +20,6 @@ or contribute to [translations via crowdin](https://crowdin.com/project/typo3-up
 
 [Show all code-contributors](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/graphs/contributors)
 
-## Tested with
-The extension has been developed and tested using
-
-| TYPO3 Version | also [helhum/typo3-secure-web](https://github.com/helhum/typo3-secure-web) |
-| --- | --- |
-| v9.5.8 | &check; |
-| v9.5.5  | - |
-| v8.7.27 | &check; |
-| v7.6.32 | - |
-
-Please bear in mind that T3 v10 is currently in development.
-
 ## Credits
 
 * [PrismJS](https://prismjs.com)
