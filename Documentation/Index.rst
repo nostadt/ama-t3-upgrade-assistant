@@ -17,13 +17,13 @@ TYPO3 Upgrade Assistant
    ama_t3_upgrade_assistant
 
 :Version:
-   1.0.5
+   2.0.0
 
 :Language:
    en
 
 :Copyright:
-   2019-2019
+   2019-2020
 
 :Authors:
     Alexander Nostadt

@@ -1,3 +1,11 @@
+v2.0.0
+* [TASK] Add .gitignore
+* [TASK] #36 Replace RuntimeException with custom TcaNotFoundException
+* [TASK] Drop v7 and add v10 support
+* [TASK] #31 Add php version constraint to ext_emconf.php
+* [TASK] Update badges in README.md
+* [TASK] Fix replace section of composer manifest
+
 v1.0.5
 * [TASK] #27 Add new translations: UK, FR. Thanks UK Community and wembley
 

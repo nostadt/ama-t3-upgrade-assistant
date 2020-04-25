@@ -1,6 +1,5 @@
 [![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange)](https://extensions.typo3.org/extension/ama_t3_upgrade_assistant)
 [![Crowdin](https://badges.crowdin.net/typo3-upgrade-assistant/localized.svg)](https://crowdin.com/project/typo3-upgrade-assistant)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/AMartinNo1/ama_t3_upgrade_assistant)
 
 # TYPO3 Upgrade Assistant
 
@@ -19,18 +18,6 @@ propose a new feature using the [issue tracker](https://github.com/AMartinNo1/am
 or contribute to [translations via crowdin](https://crowdin.com/project/typo3-upgrade-assistant).
 
 [Show all code-contributors](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/graphs/contributors)
-
-## Tested with
-The extension has been developed and tested using
-
-| TYPO3 Version | also [helhum/typo3-secure-web](https://github.com/helhum/typo3-secure-web) |
-| --- | --- |
-| v9.5.8 | &check; |
-| v9.5.5  | - |
-| v8.7.27 | &check; |
-| v7.6.32 | - |
-
-Please bear in mind that T3 v10 is currently in development.
 
 ## Credits
 
