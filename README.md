@@ -1,4 +1,4 @@
-[![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange)](https://extensions.typo3.org/extension/ama_t3_upgrade_assistant)
+[![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange?logo=TYPO3)](https://extensions.typo3.org/extension/ama_t3_upgrade_assistant)
 [![Crowdin](https://badges.crowdin.net/typo3-upgrade-assistant/localized.svg)](https://crowdin.com/project/typo3-upgrade-assistant)
 
 # TYPO3 Upgrade Assistant
