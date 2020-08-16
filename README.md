@@ -1,9 +1,10 @@
 [![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange?logo=TYPO3)](https://extensions.typo3.org/extension/ama_t3_upgrade_assistant)
+[![Latest Stable Version](https://poser.pugx.org/amartinno1/ama-t3-upgrade-assistant/v/stable)](https://packagist.org/packages/amartinno1/ama-t3-upgrade-assistant)
 [![Crowdin](https://badges.crowdin.net/typo3-upgrade-assistant/localized.svg)](https://crowdin.com/project/typo3-upgrade-assistant)
 
 # TYPO3 Upgrade Assistant
 
-This extensions aims to assist you while upgrading your TYPO3 system.
+The extensions aim to assist you while upgrading your TYPO3 system.
 
 ## Feature set
 * Get merged TCA as PHP code
@@ -25,4 +26,5 @@ or contribute to [translations via crowdin](https://crowdin.com/project/typo3-up
 * [Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.](https://stackoverflow.com/a/41998497)
 * [Crowdin.com - Manage Translations Easily](https://crowdin.com)
 * [UK Translation, Ukrainian TYPO3 community](https://www.typo3.org.ua/)
-* [FR Translation, User wembley](https://crowdin.com/profile/wembley)
+* [FR Translation, Crowding User wembley](https://crowdin.com/profile/wembley)
+* [DDEV for TYPO3, GitHub User a-r-m-i-n](https://github.com/a-r-m-i-n/ddev-for-typo3-extensions)
