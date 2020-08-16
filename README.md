@@ -26,5 +26,5 @@ or contribute to [translations via crowdin](https://crowdin.com/project/typo3-up
 * [Smooth synchronized scrolling is based on Artem Kachanovskyi post on StackOverflow.](https://stackoverflow.com/a/41998497)
 * [Crowdin.com - Manage Translations Easily](https://crowdin.com)
 * [UK Translation, Ukrainian TYPO3 community](https://www.typo3.org.ua/)
-* [FR Translation, Crowding User wembley](https://crowdin.com/profile/wembley)
+* [FR Translation, Crowdin User wembley](https://crowdin.com/profile/wembley)
 * [DDEV for TYPO3, GitHub User a-r-m-i-n](https://github.com/a-r-m-i-n/ddev-for-typo3-extensions)
