@@ -9,6 +9,7 @@
     "improvements",
     "maintenance"
   ],
+  "homepage": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/commits/development",
   "license": [
     "GPL-3.0"
   ],
@@ -23,7 +24,7 @@
     }
   },
   "replace": {
-    "typo3-ter/ama-t3-upgrade-assistant": "self.version"
+    "typo3-ter/ama-t3-upgrade-assistant": "*"
   }
 }
 

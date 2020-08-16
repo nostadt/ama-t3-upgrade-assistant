@@ -3,7 +3,7 @@ services:
     web:
         environment:
             - EXTENSION_KEY=ama_t3_upgrade_assistant
-            - PACKAGE_NAME=vendor/ama-t3-upgrade-assistant
+            - PACKAGE_NAME=amartinno1/ama-t3-upgrade-assistant
 
             - TYPO3_INSTALL_DB_DRIVER=mysqli
             - TYPO3_INSTALL_DB_USER=root
