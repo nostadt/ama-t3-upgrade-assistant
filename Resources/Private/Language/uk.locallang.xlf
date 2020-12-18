@@ -47,9 +47,9 @@
         <source>Credits:</source>
         <target state="final">Подяки:</target>
       </trans-unit>
-      <trans-unit id="credits.prismjs">
+      <trans-unit id="credits.prismjs" approved="yes">
         <source>PrismJS</source>
-        <target state="needs-translation">PrismJS</target>
+        <target state="final">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description" approved="yes">
         <source>PrismJS is used for code-highlighting.</source>
@@ -72,7 +72,7 @@
         <target state="final">Оригінальний TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
-        <source>Original TCA for table &quot;%s&quot; not found.</source>
+        <source>Original TCA for table "%s" not found.</source>
         <target state="final">Оригінальний TCA для таблиці "%s" не знайдено.</target>
       </trans-unit>
     </body>
