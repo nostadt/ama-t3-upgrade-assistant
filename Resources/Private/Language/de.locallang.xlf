@@ -34,25 +34,22 @@
       <trans-unit id="knownIssues.helpMe" approved="yes">
         <source>If you know how to solve it, feel free to help.</source>
         <target state="final">Wenn du weißt, wie man das Problem lösen kann, freue ich mich über Hilfe.</target>
-        <alt-trans>
-          <target>Wenn du weißt, wie man das Problem lösen kann freue ich mich über Hilfe.</target>
-        </alt-trans>
       </trans-unit>
-      <trans-unit id="tca" approved="yes">
+      <trans-unit id="tca">
         <source>$GLOBALS['TCA'] (Table configuration array)</source>
-        <target state="final">$GLOBALS['TCA'] (Table configuration array)</target>
+        <target state="needs-translation">$GLOBALS['TCA'] (Table configuration array)</target>
       </trans-unit>
       <trans-unit id="checkNow" approved="yes">
         <source>Check now!</source>
         <target state="final">Jetzt prüfen!</target>
       </trans-unit>
-      <trans-unit id="credits" approved="yes">
+      <trans-unit id="credits">
         <source>Credits:</source>
-        <target state="final">Credits:</target>
+        <target state="needs-translation">Credits:</target>
       </trans-unit>
-      <trans-unit id="credits.prismjs" approved="yes">
+      <trans-unit id="credits.prismjs">
         <source>PrismJS</source>
-        <target state="final">PrismJS</target>
+        <target state="needs-translation">PrismJS</target>
       </trans-unit>
       <trans-unit id="credits.prismjs.description" approved="yes">
         <source>PrismJS is used for code-highlighting.</source>
@@ -70,12 +67,12 @@
         <source>Merged TCA:</source>
         <target state="final">Zusammengefügtes TCA:</target>
       </trans-unit>
-      <trans-unit id="originalTca" approved="yes">
+      <trans-unit id="originalTca">
         <source>Original TCA:</source>
-        <target state="final">Original TCA:</target>
+        <target state="needs-translation">Original TCA:</target>
       </trans-unit>
       <trans-unit id="originalTcaNotFound" approved="yes">
-        <source>Original TCA for table "%s" not found.</source>
+        <source>Original TCA for table &quot;%s&quot; not found.</source>
         <target state="final">Original TCA für Tabelle "%s" nicht gefunden.</target>
       </trans-unit>
     </body>
