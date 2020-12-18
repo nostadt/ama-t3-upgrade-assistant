@@ -11,7 +11,7 @@ defined('TYPO3_MODE') or die();
     ],
     [
         'access' => 'admin',
-        'icon' => 'EXT:ama_t3_upgrade_assistant/ext_icon.svg',
+        'icon' => 'EXT:ama_t3_upgrade_assistant/Resources/Public/Icons/Configuration.png',
         'labels' => 'LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf',
     ]
 );
