@@ -1,13 +1,14 @@
 <?php
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
 
 use Symfony\Component\VarExporter\VarExporter;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
-class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+class ConfigurationController extends ActionController
 {
     protected $tca = [];
 
@@ -16,7 +17,8 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
         $this->tca = $tca ?? $GLOBALS['TCA'];
     }
 
-    public function mainAction(): void {
+    public function mainAction(): void
+    {
         $tables = array_keys($this->tca);
         ArrayUtility::naturalKeySortRecursive($tables);
 
@@ -29,14 +31,15 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
     /**
      * @param string $table
      */
-    public function showAction(string $table): void {
+    public function showAction(string $table): void
+    {
         $originalTca = $this->findTcaByTable($table);
 
         $tables = array_keys($this->tca);
         ArrayUtility::naturalKeySortRecursive($tables);
 
         $tcaAsPhp = VarExporter::export($this->tca[$table]);
-        $tcaAsPhp =<<<TEXT
+        $tcaAsPhp = <<<TEXT
 <?php
 return {$tcaAsPhp};
 TEXT;
