@@ -1,6 +1,7 @@
 [![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange?logo=TYPO3)](https://extensions.typo3.org/extension/ama_t3_upgrade_assistant)
 [![Latest Stable Version](https://poser.pugx.org/amartinno1/ama-t3-upgrade-assistant/v/stable)](https://packagist.org/packages/amartinno1/ama-t3-upgrade-assistant)
 [![Crowdin](https://badges.crowdin.net/typo3-upgrade-assistant/localized.svg)](https://crowdin.com/project/typo3-upgrade-assistant)
+![CI Process](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/workflows/CI%20Process/badge.svg?branch=development)
 
 # TYPO3 Upgrade Assistant
 
