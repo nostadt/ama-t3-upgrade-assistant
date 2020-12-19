@@ -3,15 +3,25 @@ declare(strict_types = 1);
 
 namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
 
-use AMartinNo1\AmaT3UpgradeAssistant\Exception\TcaNotFoundException;
-use AMartinNo1\AmaT3UpgradeAssistant\Utility\TcaUtility;
+use Symfony\Component\VarExporter\VarExporter;
+use TYPO3\CMS\Core\Utility\ArrayUtility;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-    public function mainAction(): void
+    protected $tca = [];
+
+    public function __construct(?array $tca = null)
     {
+        $this->tca = $tca ?? $GLOBALS['TCA'];
+    }
+
+    public function mainAction(): void {
+        $tables = array_keys($this->tca);
+        ArrayUtility::naturalKeySortRecursive($tables);
+
         $this->view->assignMultiple([
-            'tables' => TcaUtility::getTcaList(),
+            'tables' => array_combine($tables, $tables),
             'table' => '',
         ]);
     }
@@ -20,20 +30,35 @@ class ConfigurationController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
      * @param string $table
      */
     public function showAction(string $table): void {
-        $originalTca = '';
-        $originalTcaFound = true;
-        try {
-            $originalTca = TcaUtility::getTcaFileContent($table);
-        } catch (TcaNotFoundException $exception) {
-            $originalTcaFound = false;
-        }
+        $originalTca = $this->findTcaByTable($table);
+
+        $tables = array_keys($this->tca);
+        ArrayUtility::naturalKeySortRecursive($tables);
+
+        $tcaAsPhp = VarExporter::export($this->tca[$table]);
+        $tcaAsPhp =<<<TEXT
+<?php
+return {$tcaAsPhp};
+TEXT;
 
         $this->view->assignMultiple([
-            'tables' => TcaUtility::getTcaList(),
+            'tables' => array_combine($tables, $tables),
             'table' => $table,
-            'tcaAsPhp' => TcaUtility::getAsPhp($table),
+            'tcaAsPhp' => $tcaAsPhp,
             'originalTca' => $originalTca,
-            'originalTcaFound' => $originalTcaFound,
         ]);
+    }
+
+    protected function findTcaByTable(string $table): ?string
+    {
+        $extensionList = ExtensionManagementUtility::getLoadedExtensionListArray();
+        foreach ($extensionList as $extKey) {
+            $pathTemplate = ExtensionManagementUtility::extPath($extKey) . 'Configuration/TCA/%s.php';
+            $filename = sprintf($pathTemplate, $table);
+            if (file_exists($filename)) {
+                return file_get_contents($filename);
+            }
+        }
+        return null;
     }
 }
