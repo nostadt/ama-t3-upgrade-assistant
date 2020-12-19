@@ -23,8 +23,15 @@
       "AMartinNo1\\AmaT3UpgradeAssistant\\": "Classes"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
+    }
+  },
   "replace": {
     "typo3-ter/ama-t3-upgrade-assistant": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   }
 }
-

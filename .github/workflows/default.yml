@@ -1,0 +1,46 @@
+name: CI Process
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  default:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ ubuntu-20.04 ]
+        php-versions: [ '7.3', '7.4' ]
+    name: PHP ${{ matrix.php-versions }} Test on ${{ matrix.operating-system }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+          ini-values: "post_max_size=256M" #optional
+
+      - name: Which PHP Version
+        run: php -v
+
+      - name: Validate composer.json
+        run: composer validate
+
+      - name: Get composer cache directory
+        id: composer-cache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Cache composer dependencies
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install Composer dependencies
+        run: composer install
+
+      - name: Run functionnal and unit tests
+        run: vendor/bin/phpunit
