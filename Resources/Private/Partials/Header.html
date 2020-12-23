@@ -1,9 +1,10 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
-      data-namespace-typo3-fluid="true">
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+>
 
-<f:section name="Header">
-    <h1><f:translate key="LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf:mlang_labels_tablabel"/></h1>
+    <f:section name="Header">
+        <h1><f:translate key="LLL:EXT:ama_t3_upgrade_assistant/Resources/Private/Language/locallang_mod.xlf:mlang_labels_tablabel"/></h1>
 
-    <f:render partial="Section/Form" section="Form" arguments="{tables: tables, table: table}"/>
-</f:section>
+        <f:render partial="Section/Form" section="Form" arguments="{tables: tables, table: table}"/>
+    </f:section>
 </html>

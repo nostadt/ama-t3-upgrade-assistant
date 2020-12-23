@@ -1,8 +1,9 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+<html data-namespace-typo3-fluid="true"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
       xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers"
-      data-namespace-typo3-fluid="true">
+>
 
-    <f:layout name="Default" />
+    <f:layout name="Default"/>
 
     <f:section name="content">
         <f:render partial="Header" section="Header" arguments="{tables: tables, table: table}"/>
@@ -18,11 +19,11 @@
             <div class="col-xs-12 text-center form-group">
                 <f:form.button class="btn btn-success" name="button" id="startParallelScroll">
                     <core:icon identifier="actions-check" size="small"/>
-                    <f:translate key="synchronizeCodeStart" />
+                    <f:translate key="synchronizeCodeStart"/>
                 </f:form.button>
                 <f:form.button class="btn btn-danger" name="button" id="stopParallelScroll">
                     <core:icon identifier="actions-close" size="small"/>
-                    <f:translate key="synchronizeCodeStop" />
+                    <f:translate key="synchronizeCodeStop"/>
                 </f:form.button>
             </div>
         </div>
