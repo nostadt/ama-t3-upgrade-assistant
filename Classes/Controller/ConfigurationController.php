@@ -11,10 +11,12 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 class ConfigurationController extends ActionController
 {
     protected $tca = [];
+    protected $extensionList = [];
 
-    public function __construct(?array $tca = null)
+    public function __construct(?array $tca = null, ?array $extensionList = null)
     {
         $this->tca = $tca ?? $GLOBALS['TCA'];
+        $this->extensionList = $extensionList ?? ExtensionManagementUtility::getLoadedExtensionListArray();
     }
 
     public function mainAction(): void
@@ -33,8 +35,6 @@ class ConfigurationController extends ActionController
      */
     public function showAction(string $table): void
     {
-        $originalTca = $this->findTcaByTable($table);
-
         $tables = array_keys($this->tca);
         ArrayUtility::naturalKeySortRecursive($tables);
 
@@ -48,20 +48,19 @@ TEXT;
             'tables' => array_combine($tables, $tables),
             'table' => $table,
             'tcaAsPhp' => $tcaAsPhp,
-            'originalTca' => $originalTca,
+            'originalTca' => $this->findOriginalTcaByTable($table, $this->extensionList),
         ]);
     }
 
-    protected function findTcaByTable(string $table): ?string
+    protected function findOriginalTcaByTable(string $table, array $extensionList): ?string
     {
-        $extensionList = ExtensionManagementUtility::getLoadedExtensionListArray();
         foreach ($extensionList as $extKey) {
-            $pathTemplate = ExtensionManagementUtility::extPath($extKey) . 'Configuration/TCA/%s.php';
-            $filename = sprintf($pathTemplate, $table);
+            $filename = ExtensionManagementUtility::extPath($extKey) . 'Configuration/TCA/' . $table . '.php';
             if (file_exists($filename)) {
                 return file_get_contents($filename);
             }
         }
+
         return null;
     }
 }
