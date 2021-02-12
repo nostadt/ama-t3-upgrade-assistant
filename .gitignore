@@ -1,5 +1,18 @@
+# IDE
 /.idea/
+
+# Documentation
 /Documentation-GENERATED-temp/
+
+# Composer
 /composer.lock
+/vendor
+
+# Code Style & Tests
 /.php_cs.cache
 /.phpunit.result.cache
+
+# Miscellaneous
+/public
+*.ai
+.DS_Store
