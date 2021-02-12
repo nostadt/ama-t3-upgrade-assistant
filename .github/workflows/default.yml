@@ -44,3 +44,6 @@ jobs:
 
       - name: Run functionnal and unit tests
         run: vendor/bin/phpunit
+
+      - name: PHP CS
+        run: vendor/bin/php-cs-fixer fix --dry-run --diff --diff-format=udiff -vvv --using-cache=false
