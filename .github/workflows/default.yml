@@ -1,18 +1,46 @@
 name: CI Process
-
-on:
-  push:
-    branches:
-      - development
+on: [push]
 
 jobs:
-  default:
+  php_cs_fixer:
+    runs-on: ubuntu-20.04
+    name: PHP CS (--dry-run)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Switch default PHP Version to 7.4
+        run: sudo update-alternatives --set php /usr/bin/php7.4
+
+      - name: Install Composer dependencies
+        run: composer install
+
+      - name: PHP CS
+        run: vendor/bin/php-cs-fixer fix --dry-run --diff --diff-format=udiff -vvv --using-cache=false
+
+  composer_normalize:
+    runs-on: ubuntu-20.04
+    name: composer normalize (--dry-run)
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Switch default PHP Version to 7.4
+        run: sudo update-alternatives --set php /usr/bin/php7.4
+
+      - name: Install Composer dependencies
+        run: composer install
+
+      - name: Normalize
+        run: composer normalize --dry-run
+
+  phpunit:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
         operating-system: [ ubuntu-20.04 ]
         php-versions: [ '7.3', '7.4' ]
-    name: PHP ${{ matrix.php-versions }} Test on ${{ matrix.operating-system }}
+    name: PHPunit (PHP v${{ matrix.php-versions }} on ${{ matrix.operating-system }})
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -44,6 +72,3 @@ jobs:
 
       - name: Run functionnal and unit tests
         run: vendor/bin/phpunit
-
-      - name: PHP CS
-        run: vendor/bin/php-cs-fixer fix --dry-run --diff --diff-format=udiff -vvv --using-cache=false
