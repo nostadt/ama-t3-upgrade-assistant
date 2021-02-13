@@ -1,5 +1,11 @@
-# IDE
+# IDE files & # Development
 /.idea/
+!/.ddev/commands/host/docs
+!/.ddev/commands/host/launch-docs
+!/.ddev/commands/web/install-all
+!/.ddev/commands/web/install-v10
+!/.ddev/commands/web/install-v9
+!/.ddev/commands/web/install-v8
 
 # Documentation
 /Documentation-GENERATED-temp/
