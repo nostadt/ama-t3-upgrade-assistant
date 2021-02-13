@@ -26,6 +26,9 @@
     "friendsofphp/php-cs-fixer": "^2.18",
     "phpunit/phpunit": "^9.5"
   },
+  "config": {
+    "sort-packages": true
+  },
   "extra": {
     "composer-normalize": {
       "indent-size": 2,
@@ -41,8 +44,5 @@
     "psr-4": {
       "AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
     }
-  },
-  "config": {
-    "sort-packages": true
   }
 }
