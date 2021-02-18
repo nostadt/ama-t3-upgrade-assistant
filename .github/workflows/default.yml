@@ -13,7 +13,7 @@ jobs:
         run: sudo apt-get install libxml2-utils
 
       - name: "Run lint"
-        run: xmllint --schema .github/support/data/xliff-core-1.2-strict.xsd --noout $(find Resources -name '*.xlf')
+        run: xmllint --schema .github/support/data/xliff-core-1.2-strict.xsd --noout ./Resources/Private/Language/*.xlf
 
   php_cs_fixer:
     runs-on: ubuntu-20.04
