@@ -18,10 +18,6 @@
 		"symfony/var-exporter": "^4.3",
 		"typo3/cms-core": "^8.7 || ^9.5.23 || ^10.4.10"
 	},
-	"support": {
-		"issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
-		"source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
-	},
 	"replace": {
 		"typo3-ter/ama-t3-upgrade-assistant": "self.version"
 	},
@@ -33,7 +29,6 @@
 	"config": {
 		"sort-packages": true
 	},
-	"prefer-stable": true,
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "ama_t3_upgrade_assistant",
@@ -49,5 +44,10 @@
 		"psr-4": {
 			"AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
 		}
+	},
+	"prefer-stable": true,
+	"support": {
+		"issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
+		"source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
 	}
 }
