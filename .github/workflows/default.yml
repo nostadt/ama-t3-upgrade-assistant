@@ -36,6 +36,7 @@ jobs:
 
   phpunit:
     runs-on: ${{ matrix.operating-system }}
+    needs: [ php_cs_fixer, composer_normalize ]
     strategy:
       matrix:
         operating-system: [ ubuntu-20.04 ]
