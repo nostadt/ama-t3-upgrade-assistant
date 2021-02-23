@@ -46,10 +46,6 @@
 		}
 	},
 	"prefer-stable": true,
-	"support": {
-		"issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
-		"source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
-	},
 	"scripts": {
 		"prepare-release": [
 			"rm -rf .Build",
@@ -61,5 +57,9 @@
 			"rm crowdin.yml",
 			"rm phpunit.xml.dist"
 		]
+	},
+	"support": {
+		"issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
+		"source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
 	}
 }
