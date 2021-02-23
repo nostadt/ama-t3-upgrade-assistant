@@ -49,5 +49,17 @@
 	"support": {
 		"issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
 		"source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
+	},
+	"scripts": {
+		"prepare-release": [
+			"rm -rf .Build",
+			"rm -rf .ddev",
+			"rm -rf .github",
+			"rm -rf Tests",
+			"rm .editorconfig",
+			"rm .php_cs",
+			"rm crowdin.yml",
+			"rm phpunit.xml.dist"
+		]
 	}
 }
