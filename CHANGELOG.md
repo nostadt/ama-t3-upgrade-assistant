@@ -1,3 +1,8 @@
+v2.0.2
+* TASK: composer normalize
+* TASK: Add TER release via GH Actions
+* TASK: Update Documentation/Settings.cfg
+
 v2.0.1
 * FIX: Set github_branch to development
 * TASK #53: Introducde Xliff Lint in CI (#54)
