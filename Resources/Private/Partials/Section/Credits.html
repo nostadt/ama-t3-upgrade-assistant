@@ -5,13 +5,13 @@
 
     <f:section name="Credits">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="{f:if(condition: isV11, then: 'col-12', else: 'col-xs-12')}">
                 <h3><f:translate key="credits"/></h3>
             </div>
         </div>
         <div class="row">
             <!-- PrismJS -->
-            <div class="col-xs-3">
+            <div class="{f:if(condition: isV11, then: 'col-3', else: 'col-xs-3')}">
                 <div class="media">
                     <div class="media-left">
                         <a href="https://prismjs.com/" target="_blank">
@@ -28,7 +28,7 @@
             </div>
 
             <!-- smooth scroll @artem-kachanovskyi on StackOverflow -->
-            <div class="col-xs-3">
+            <div class="{f:if(condition: isV11, then: 'col-3', else: 'col-xs-3')}">
                 <div class="media">
                     <div class="media-left">
                         <a href="https://stackoverflow.com/a/41998497" target="_blank">

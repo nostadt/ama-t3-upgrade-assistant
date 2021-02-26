@@ -1,13 +1,18 @@
 <?php
 defined('TYPO3_MODE') or die();
 
+$configurationController = 'Configuration';
+if (version_compare(TYPO3_version, '11.0.0', '>=')) {
+    $configurationController = \AMartinNo1\AmaT3UpgradeAssistant\Controller\ConfigurationController::class;
+}
+
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
     'AMartinNo1.AmaT3UpgradeAssistant',
     'system',
     'tx_UpgradeAssistant',
     'after:config',
     [
-        'Configuration' => 'main, show',
+        $configurationController => 'main, show',
     ],
     [
         'access' => 'admin',

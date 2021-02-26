@@ -10,6 +10,22 @@ The extensions aim to assist you while upgrading your TYPO3 system.
 ## Feature set
 * Get merged TCA as PHP code
 
+## Outlook TYPO3 v11
+
+While this repository contains v11 support, the extension does not support it yet. A quick
+check made following issues visible:
+
+- Backend Module View is screwed up
+- registerModule call needs to be adjusted
+
+In order to test v11 the `composer.json` will have to be adjusted.
+
+> `"typo3/cms-core": "^8.7 || ^9.5.23 || ^10.4.10 || ^11.0"`
+
+Then a call off `ddev install-v11` may be sufficient. If the exception "1588095935"
+appears, the solution described [here](https://wiki.typo3.org/Exception/CMS/1588095935)
+will fix it.
+
 ## Known issues
 
 [See ext. manual for more](https://docs.typo3.org/p/amartinno1/ama-t3-upgrade-assistant/master/en-us/)
