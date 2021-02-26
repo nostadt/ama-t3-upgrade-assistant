@@ -1,3 +1,7 @@
+v2.0.4
+* FIX #58: Raise TYPO3 v11 dependency in composer.json / ext_emconf.php
+* TASK: Remove obsolete v11 outlook
+
 v2.0.3
 * TASK #45: Add v11 .ddev support
 
