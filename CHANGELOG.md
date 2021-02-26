@@ -1,3 +1,6 @@
+v2.0.3
+* TASK #45: Add v11 .ddev support
+
 v2.0.2
 * TASK: composer normalize
 * TASK: Add TER release via GH Actions
