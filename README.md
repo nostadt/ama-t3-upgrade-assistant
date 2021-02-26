@@ -21,6 +21,11 @@ or contribute to [translations via crowdin](https://crowdin.com/project/typo3-ex
 
 [Show all code-contributors](https://github.com/AMartinNo1/ama_t3_upgrade_assistant/graphs/contributors)
 
+### v3 and v2
+
+The branch `development` is used for v3 maintaining and `v2-development` for v2 respectively. However, v2 will receive
+only bug fixes and perhaps easy/important patches.
+
 ## Credits
 
 * [PrismJS](https://prismjs.com)
