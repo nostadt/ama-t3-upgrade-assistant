@@ -53,7 +53,7 @@ jobs:
     strategy:
       matrix:
         operating-system: [ ubuntu-20.04 ]
-        php-versions: [ '7.3', '7.4' ]
+        php-versions: [ '7.4' ]
     name: PHPunit (PHP v${{ matrix.php-versions }} on ${{ matrix.operating-system }})
     steps:
       - name: Checkout

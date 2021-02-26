@@ -8,9 +8,6 @@ router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames:
-    - v8.ama-t3-upgrade-assistant
-    - v9.ama-t3-upgrade-assistant
-    - v10.ama-t3-upgrade-assistant
     - v11.ama-t3-upgrade-assistant
 additional_fqdns: []
 provider: default
@@ -18,7 +15,4 @@ use_dns_when_possible: true
 omit_containers:
     - dba
 extra_services:
-    - v8-data
-    - v9-data
-    - v10-data
     - v11-data
