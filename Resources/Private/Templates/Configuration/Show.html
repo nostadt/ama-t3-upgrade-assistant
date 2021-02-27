@@ -16,7 +16,7 @@
         </p>
 
         <div class="row">
-            <div class="{f:if(condition: isV11, then: 'col-12', else: 'col-xs-12')} text-center form-group">
+            <div class="col-12 text-center form-group">
                 <f:form.button class="btn btn-success" name="button" id="startParallelScroll">
                     <core:icon identifier="actions-check" size="small"/>
                     <f:translate key="synchronizeCodeStart"/>
@@ -29,11 +29,11 @@
         </div>
 
         <div class="row">
-            <div class="{f:if(condition: isV11, then: 'col-6', else: 'col-xs-6')}">
+            <div class="col-6">
                 <strong><f:translate key="mergedTca"/></strong>
                 <pre id="mergedTca" class="line-numbers"><code class="language-php">{tcaAsPhp}</code></pre>
             </div>
-            <div class="{f:if(condition: isV11, then: 'col-6', else: 'col-xs-6')}">
+            <div class="col-6">
                 <strong><f:translate key="originalTca"/></strong>
                 <f:if condition="{originalTca}">
                     <f:then>
@@ -54,6 +54,6 @@
             var rightDiv = document.getElementById('originalTca');
             bindScroll();
         </script>
-        <f:render partial="Footer" section="Footer" arguments="{isV11: isV11}"/>
+        <f:render partial="Footer" section="Footer"/>
     </f:section>
 </html>

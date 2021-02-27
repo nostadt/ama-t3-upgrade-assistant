@@ -12,13 +12,11 @@ class ConfigurationController extends ActionController
 {
     protected $tca = [];
     protected $extensionList = [];
-    protected $isV11 = '';
 
     public function __construct(?array $tca = null, ?array $extensionList = null)
     {
         $this->tca = $tca ?? $GLOBALS['TCA'];
         $this->extensionList = $extensionList ?? ExtensionManagementUtility::getLoadedExtensionListArray();
-        $this->isV11 = version_compare(TYPO3_version, '11.0.0', '>=');
     }
 
     public function mainAction(): void
@@ -29,7 +27,6 @@ class ConfigurationController extends ActionController
         $this->view->assignMultiple([
             'tables' => array_combine($tables, $tables),
             'table' => '',
-            'isV11' => $this->isV11,
         ]);
     }
 
@@ -52,7 +49,6 @@ TEXT;
             'table' => $table,
             'tcaAsPhp' => $tcaAsPhp,
             'originalTca' => $this->findOriginalTcaByTable($table, $this->extensionList),
-            'isV11' => $this->isV11,
         ]);
     }
 
