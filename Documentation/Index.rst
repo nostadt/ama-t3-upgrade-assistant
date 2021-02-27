@@ -17,7 +17,7 @@ TYPO3 Upgrade Assistant
    ama_t3_upgrade_assistant
 
 :Version:
-   2.0.4
+   3.0.0-dev
 
 :Language:
    en
