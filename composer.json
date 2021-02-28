@@ -9,7 +9,6 @@
 		"improvements",
 		"maintenance"
 	],
-	"minimum-stability": "dev",
 	"homepage": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/commits/development",
 	"license": [
 		"GPL-3.0"
@@ -48,6 +47,7 @@
 			"AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
 		}
 	},
+	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"scripts": {
 		"prepare-release": [
