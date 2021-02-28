@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
 
 use Symfony\Component\VarExporter\VarExporter;
+use TYPO3\CMS\Core\Http\HtmlResponse;
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
@@ -19,7 +20,7 @@ class ConfigurationController extends ActionController
         $this->extensionList = $extensionList ?? ExtensionManagementUtility::getLoadedExtensionListArray();
     }
 
-    public function mainAction(): void
+    public function mainAction(): HtmlResponse
     {
         $tables = array_keys($this->tca);
         ArrayUtility::naturalKeySortRecursive($tables);
@@ -28,12 +29,11 @@ class ConfigurationController extends ActionController
             'tables' => array_combine($tables, $tables),
             'table' => '',
         ]);
+
+        return new HtmlResponse($this->view->render());
     }
 
-    /**
-     * @param string $table
-     */
-    public function showAction(string $table): void
+    public function showAction(string $table): HtmlResponse
     {
         $tables = array_keys($this->tca);
         ArrayUtility::naturalKeySortRecursive($tables);
@@ -50,6 +50,8 @@ TEXT;
             'tcaAsPhp' => $tcaAsPhp,
             'originalTca' => $this->findOriginalTcaByTable($table, $this->extensionList),
         ]);
+
+        return new HtmlResponse($this->view->render());
     }
 
     protected function findOriginalTcaByTable(string $table, array $extensionList): ?string
