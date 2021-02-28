@@ -9,6 +9,7 @@
 		"improvements",
 		"maintenance"
 	],
+	"minimum-stability": "dev",
 	"homepage": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/commits/development",
 	"license": [
 		"GPL-3.0"
@@ -23,6 +24,7 @@
 		"typo3-ter/ama-t3-upgrade-assistant": "self.version"
 	},
 	"require-dev": {
+		"amartinno1/typo3-ext-analyse": "dev-main",
 		"ergebnis/composer-normalize": "^2.13",
 		"friendsofphp/php-cs-fixer": "^2.18",
 		"phpunit/phpunit": "^9.5"
