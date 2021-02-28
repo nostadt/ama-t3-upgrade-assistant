@@ -10,8 +10,8 @@ use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 class ConfigurationController extends ActionController
 {
-    protected $tca = [];
-    protected $extensionList = [];
+    protected array $tca = [];
+    protected array $extensionList = [];
 
     public function __construct(?array $tca = null, ?array $extensionList = null)
     {
