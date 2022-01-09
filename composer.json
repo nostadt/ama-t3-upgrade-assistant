@@ -1,67 +1,67 @@
 {
-    "name": "amartinno1/ama-t3-upgrade-assistant",
-    "type": "typo3-cms-extension",
-    "description": "This extension aims to simplify the upgrade process. In a first step it provides a be module displaying merged TCA.",
-    "keywords": [
-        "TYPO3",
-        "extension",
-        "productivity",
-        "improvements",
-        "maintenance"
-    ],
-    "homepage": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/commits/development",
-    "license": [
-        "GPL-3.0"
-    ],
-    "require": {
-        "php": "^7.4",
-        "symfony/var-exporter": "^4.3",
-        "typo3/cms-core": "^11.0",
-        "typo3/cms-extbase": "^11.0"
-    },
-    "replace": {
-        "typo3-ter/ama-t3-upgrade-assistant": "self.version"
-    },
-    "require-dev": {
-        "ergebnis/composer-normalize": "^2.13",
-        "friendsofphp/php-cs-fixer": "^2.18",
-        "phpunit/phpunit": "^9.5"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "typo3/cms": {
-            "extension-key": "ama_t3_upgrade_assistant",
-            "web-dir": ".Build/public"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "AMartinNo1\\AmaT3UpgradeAssistant\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "prepare-release": [
-            "rm -rf .Build",
-            "rm -rf .ddev",
-            "rm -rf .github",
-            "rm -rf Tests",
-            "rm .editorconfig",
-            "rm .php_cs",
-            "rm crowdin.yml",
-            "rm phpunit.xml.dist"
-        ]
-    },
-    "support": {
-        "issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
-        "source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
+  "autoload": {
+    "psr-4": {
+      "AMartinNo1\\AmaT3UpgradeAssistant\\": "Classes"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "description": "This extension aims to simplify the upgrade process. In a first step it provides a be module displaying merged TCA.",
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "ama_t3_upgrade_assistant",
+      "web-dir": ".Build/public"
+    }
+  },
+  "homepage": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/commits/development",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "productivity",
+    "improvements",
+    "maintenance"
+  ],
+  "license": [
+    "GPL-3.0"
+  ],
+  "minimum-stability": "dev",
+  "name": "amartinno1/ama-t3-upgrade-assistant",
+  "prefer-stable": true,
+  "replace": {
+    "typo3-ter/ama-t3-upgrade-assistant": "self.version"
+  },
+  "require": {
+    "php": "^7.4",
+    "symfony/var-exporter": "^4.3",
+    "typo3/cms-core": "^11.0",
+    "typo3/cms-extbase": "^11.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.18",
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "normalize": "./bin/json-normalize composer.json 2",
+    "prepare-release": [
+      "rm -rf .Build",
+      "rm -rf .ddev",
+      "rm -rf .github",
+      "rm -rf Tests",
+      "rm .editorconfig",
+      "rm .php_cs",
+      "rm crowdin.yml",
+      "rm phpunit.xml.dist"
+    ]
+  },
+  "support": {
+    "issues": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant/issues",
+    "source": "https://github.com/AMartinNo1/ama_t3_upgrade_assistant"
+  },
+  "type": "typo3-cms-extension"
 }

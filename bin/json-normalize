@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+function normalize() {
+    local file=$1;
+    local indent=$2;
+
+    jq -S --indent $indent . $file > "$file.tmp";
+    cat "$file.tmp" > $file;
+    rm "$file.tmp";
+}
+
+normalize $1 $2
