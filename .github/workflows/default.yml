@@ -33,7 +33,7 @@ jobs:
 
   composer_normalize:
     runs-on: ubuntu-20.04
-    name: composer normalize (--dry-run)
+    name: composer normalize
     steps:
       - name: Checkout
         uses: actions/checkout@v2
