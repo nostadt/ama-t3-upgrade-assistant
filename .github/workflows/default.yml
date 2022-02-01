@@ -45,7 +45,7 @@ jobs:
         run: composer install
 
       - name: Normalize
-        run: composer normalize --dry-run
+        run: composer normalize
 
   phpunit:
     runs-on: ${{ matrix.operating-system }}
