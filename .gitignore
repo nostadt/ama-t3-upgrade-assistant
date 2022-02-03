@@ -20,5 +20,7 @@
 
 # Miscellaneous
 /public
+/var
+/.Build
 *.ai
 .DS_Store
