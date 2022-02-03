@@ -22,8 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Switch default PHP Version to 7.4
-        run: sudo update-alternatives --set php /usr/bin/php7.4
+      - name: Switch default PHP Version to 8.0
+        run: sudo update-alternatives --set php /usr/bin/php8.0
 
       - name: Install Composer dependencies
         run: composer install
@@ -38,8 +38,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Switch default PHP Version to 7.4
-        run: sudo update-alternatives --set php /usr/bin/php7.4
+      - name: Switch default PHP Version to 8.0
+        run: sudo update-alternatives --set php /usr/bin/php8.0
 
       - name: Install Composer dependencies
         run: composer install
@@ -53,11 +53,12 @@ jobs:
     strategy:
       matrix:
         operating-system: [ ubuntu-20.04 ]
-        php-versions: [ '7.4' ]
+        php-versions: [ '7.4', '8.0', '8.1' ]
     name: PHPunit (PHP v${{ matrix.php-versions }} on ${{ matrix.operating-system }})
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Install PHP
         uses: shivammathur/setup-php@v2
         with:
