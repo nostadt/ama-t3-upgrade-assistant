@@ -44,10 +44,12 @@
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.18",
+    "phpstan/phpstan": "^1.4",
     "phpunit/phpunit": "^9.5"
   },
   "scripts": {
     "normalize": "./bin/json-normalize composer.json 2",
+    "php:phpstan": "phpstan analyse Classes Tests --level 5",
     "prepare-release": [
       "rm -rf .Build",
       "rm -rf .ddev",

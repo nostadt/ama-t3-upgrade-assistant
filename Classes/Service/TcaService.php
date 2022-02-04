@@ -10,12 +10,23 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 class TcaService
 {
     private array $tca;
+
+    /**
+     * @var array<string>
+     */
     private array $extList;
+
+    /**
+     * @var array<string>
+     */
     private array $tables;
 
+    /**
+     * @param array<string> $extensionList
+     */
     public function __construct(?array $tca = null, ?array $extensionList = null)
     {
-        $this->tca = $tca ?? $GLOBALS['TCA'];
+        $this->tca = $tca ?? $GLOBALS['TCA'] ?? [];
         $this->tables = array_keys($this->tca);
         ArrayUtility::naturalKeySortRecursive($this->tables);
 
@@ -27,13 +38,18 @@ class TcaService
         foreach ($this->extList as $extKey) {
             $filename = $this->getPathToExtension($extKey) . 'Configuration/TCA/' . $table . '.php';
             if (file_exists($filename)) {
-                return file_get_contents($filename);
+                $content = file_get_contents($filename);
+
+                return $content === false ? null : $content;
             }
         }
 
         return null;
     }
 
+    /**
+     * @return array<string>
+     */
     public function getTables(): array
     {
         return $this->tables;
