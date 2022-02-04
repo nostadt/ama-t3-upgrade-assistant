@@ -1,3 +1,25 @@
+v3.0.0
+* TASK: Update homepage url in composer.json
+* TASK: Avoid usage of $_EXTKEY in ./ext_emconf.php
+* TASK #45: Update typo3/cms-* to 11.5
+* TASK: Configure PHPStan with level 5 (#69)
+* TASK: Extract code from ConfigurationController into a TcaService (#66)
+* TASK: Updat ddev .gitignore files
+* TASK #67: Add PHP 8.0/8.1 support (#68)
+* TASK #65: Remove outdated --dry-run from job title
+* TASK #65: Remove non-existent --dry-run from composer normalize call in CI
+* TASK #65: Replace ergebnis/composer-normalize with shell based normalize
+* TASK: Remove amartinno1/typo3-ext-analyse
+* TASK: composer normalize
+* TASK: Integrate dev version of amartinno1/typo3-ext-analyse
+* TASK #45: Use of HtmlResponse
+* TASK #63: Use PHP 7.4 features
+* TASK #62: Set version to 3.0.0-dev
+* TASK #57: Raise min. dep. to PHP 7.4
+* TASK #56: Remove obsolete bridge code recently introduced
+* TASK #55: Remove obsolete ddev config
+* TASK #59: Add v2 vs v3 development hint to README
+
 v2.0.4
 * FIX #58: Raise TYPO3 v11 dependency in composer.json / ext_emconf.php
 * TASK: Remove obsolete v11 outlook
