@@ -1,5 +1,6 @@
 <?php
-$EM_CONF[$_EXTKEY] = [
+
+$EM_CONF['ama_t3_upgrade_assistant'] = [
     'title' => 'Upgrade Assistant',
     'description' => 'This extension aims to simplify the upgrade process. In a first step it provides a backend module which generates TCA in PHP format.',
     'category' => 'be',
