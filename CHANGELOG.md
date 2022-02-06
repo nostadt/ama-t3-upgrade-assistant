@@ -1,3 +1,9 @@
+v3.0.1
+* TASK: Rename more areas
+* TASK: Rename package name
+* TASK #71: Remove superfluous .gitkeep file
+* TASK: Remove note about v2-development branch
+
 v3.0.0
 * TASK: Update homepage url in composer.json
 * TASK: Avoid usage of $_EXTKEY in ./ext_emconf.php
