@@ -2,12 +2,12 @@
 defined('TYPO3_MODE') or die();
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-    'AMartinNo1.AmaT3UpgradeAssistant',
+    'Nostadt.Typo3UpgradeAssistant',
     'system',
     'tx_UpgradeAssistant',
     'after:config',
     [
-        \AMartinNo1\AmaT3UpgradeAssistant\Controller\ConfigurationController::class => 'main, show',
+        \Nostadt\Typo3UpgradeAssistant\Controller\ConfigurationController::class => 'main, show',
     ],
     [
         'access' => 'admin',

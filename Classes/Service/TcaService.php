@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AMartinNo1\AmaT3UpgradeAssistant\Service;
+namespace Nostadt\Typo3UpgradeAssistant\Service;
 
 use TYPO3\CMS\Core\Utility\ArrayUtility;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
