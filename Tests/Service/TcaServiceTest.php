@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace AMartinNo1\AmaT3UpgradeAssistant\Tests\Service;
+namespace Nostadt\Typo3UpgradeAssistant\Tests\Service;
 
-use AMartinNo1\AmaT3UpgradeAssistant\Service\TcaService;
+use Nostadt\Typo3UpgradeAssistant\Service\TcaService;
 use PHPUnit\Framework\TestCase;
 
 class TcaServiceTest extends TestCase

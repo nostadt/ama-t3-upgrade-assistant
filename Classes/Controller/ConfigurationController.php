@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace AMartinNo1\AmaT3UpgradeAssistant\Controller;
+namespace Nostadt\Typo3UpgradeAssistant\Controller;
 
-use AMartinNo1\AmaT3UpgradeAssistant\Service\TcaService;
+use Nostadt\Typo3UpgradeAssistant\Service\TcaService;
 use Symfony\Component\VarExporter\VarExporter;
 use TYPO3\CMS\Core\Http\HtmlResponse;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;

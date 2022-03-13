@@ -1,16 +1,20 @@
 {
   "autoload": {
     "psr-4": {
-      "AMartinNo1\\AmaT3UpgradeAssistant\\": "Classes"
+      "Nostadt\\Typo3UpgradeAssistant\\": "Classes"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AMartinNo1\\AmaT3UpgradeAssistant\\Tests\\": "Tests"
+      "Nostadt\\Typo3UpgradeAssistant\\Tests\\": "Tests"
     }
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "typo3/class-alias-loader": true,
+      "typo3/cms-composer-installers": true
+    }
   },
   "description": "This extension aims to simplify the upgrade process. In a first step it provides a be module displaying merged TCA.",
   "extra": {
