@@ -1,3 +1,8 @@
+<h1 align="center">Looking for new maintainer</h1>
+
+<p align="center">Due to lack of time I cannot continue the maintenance for this extension.</p>
+<p align="center"><a href="https://github.com/nostadt/ama-t3-upgrade-assistant/discussions/76">Reach out to me.</a></p>
+
 [![TYPO3](https://img.shields.io/badge/TYPO3-Extension-orange?logo=TYPO3)](https://extensions.typo3.org/extension/ama-t3-upgrade-assistant)
 [![Latest Stable Version](https://poser.pugx.org/nostadt/ama-t3-upgrade-assistant/v/stable)](https://packagist.org/packages/nostadt/ama-t3-upgrade-assistant)
 [![Crowdin](https://badges.crowdin.net/typo3-extension-amat3upgradeas/localized.svg)](https://crowdin.com/project/typo3-extension-amat3upgradeas)
